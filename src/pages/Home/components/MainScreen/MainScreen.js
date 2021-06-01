@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function MainScreen() {
     return (
@@ -19,45 +20,65 @@ export default function MainScreen() {
                         </h1>
                         <p class="mb-8 fnt-sty-nunito text-sm text-gray-600">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                         <div class="grid grid-cols-12 sm:grid-cols-10 gap-2 w-full">
-                            <div className="col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
-                                <div className='contebt-img'>
-                                    <img src='./img/credit-card.png' className='mx-auto h-16 w-16 object-fit object-center' />
-                                </div>
-                                <div className='content-label'>
-                                    <p className='text-gray-600 font-bold text-sm text-center'>Credit Card</p>
-                                </div>
+                            <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
+                                <Link to='/credit-card'>
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                        <div className='contebt-img'>
+                                            <img src='./img/credit-card.png' className='mx-auto h-16 w-16 object-fit object-center' />
+                                        </div>
+                                        <div className='content-label'>
+                                            <p className='text-gray-600 font-bold text-sm text-center'>Credit Card</p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
-                            <div className="col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
-                                <div className='contebt-img'>
-                                    <img src='./img/personalloan.png' className='mx-auto h-16 w-16 object-fit object-center' />
-                                </div>
-                                <div className='content-label'>
-                                    <p className='text-gray-600 font-bold text-sm text-center'>Personal Loan</p>
-                                </div>
+                            <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
+                                <Link to='/credit-card'>
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                        <div className='contebt-img'>
+                                            <img src='./img/personalloan.png' className='mx-auto h-16 w-16 object-fit object-center' />
+                                        </div>
+                                        <div className='content-label'>
+                                            <p className='text-gray-600 font-bold text-sm text-center'>Personal Loan</p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
-                            <div className="col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
-                                <div className='contebt-img'>
-                                    <img src='./img/home-loan.png' className='mx-auto h-16 w-16 object-fit object-center' />
-                                </div>
-                                <div className='content-label'>
-                                    <p className='text-gray-600 font-bold text-sm text-center'>Home Loan</p>
-                                </div>
+                            <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
+                                <Link to='/credit-card'>
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                        <div className='contebt-img'>
+                                            <img src='./img/home-loan.png' className='mx-auto h-16 w-16 object-fit object-center' />
+                                        </div>
+                                        <div className='content-label'>
+                                            <p className='text-gray-600 font-bold text-sm text-center'>Home Loan</p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
-                            <div className="col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
-                                <div className='contebt-img'>
-                                    <img src='./img/demat-acct.png' className='mx-auto h-16 w-16 object-fit object-center' />
-                                </div>
-                                <div className='content-label'>
-                                    <p className='text-gray-600 font-bold text-sm text-center'>Demat Account</p>
-                                </div>
+                            <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
+                                <Link to='/credit-card'>
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                        <div className='contebt-img'>
+                                            <img src='./img/demat-acct.png' className='mx-auto h-16 w-16 object-fit object-center' />
+                                        </div>
+                                        <div className='content-label'>
+                                            <p className='text-gray-600 font-bold text-sm text-center'>Demat Account</p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
-                            <div className="col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
-                                <div className='contebt-img'>
-                                    <img src='./img/savings.png' className='mx-auto h-16 w-16 object-fit object-center' />
-                                </div>
-                                <div className='content-label'>
-                                    <p className='text-gray-600 font-bold text-sm text-center'>Saving Account</p>
-                                </div>
+                            <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
+                                <Link to='/credit-card'>
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                        <div className='contebt-img'>
+                                            <img src='./img/savings.png' className='mx-auto h-16 w-16 object-fit object-center' />
+                                        </div>
+                                        <div className='content-label'>
+                                            <p className='text-gray-600 font-bold text-sm text-center'>Saving Account</p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
