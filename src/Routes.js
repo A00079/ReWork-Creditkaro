@@ -7,6 +7,10 @@ import { PublicLayout, SecondaryPublicLayout } from "./layouts";
 
 import Home from "./pages/Home";
 import CreditCard from "./pages/CreditCard";
+import PersonalLoan from "./pages/PersonalLoan";
+import HomeLoan from "./pages/HomeLoan";
+import DematAccount from "./pages/DematAccount";
+import SavingAccount from "./pages/SavingAccount";
 
 import {
   BrowserView,
@@ -29,6 +33,30 @@ const Routes = () => {
           path="/credit-card"
           layout={PublicLayout}
           component={CreditCard}
+        />
+        <WithLayoutRoute
+          exact
+          path="/personal-loan"
+          layout={PublicLayout}
+          component={PersonalLoan}
+        />
+        <WithLayoutRoute
+          exact
+          path="/home-loan"
+          layout={PublicLayout}
+          component={HomeLoan}
+        />
+        <WithLayoutRoute
+          exact
+          path="/demat-account"
+          layout={PublicLayout}
+          component={DematAccount}
+        />
+        <WithLayoutRoute
+          exact
+          path="/saving-account"
+          layout={PublicLayout}
+          component={SavingAccount}
         />
         <Route path="*" component={() => "404 NOT FOUND"} />
       </Switch>

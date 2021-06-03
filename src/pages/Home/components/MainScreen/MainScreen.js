@@ -33,7 +33,7 @@ export default function MainScreen() {
                                 </Link>
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
-                                <Link to='/credit-card'>
+                                <Link to='/personal-loan'>
                                     <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
                                         <div className='contebt-img'>
                                             <img src='./img/personalloan.png' className='mx-auto h-16 w-16 object-fit object-center' />
@@ -45,7 +45,7 @@ export default function MainScreen() {
                                 </Link>
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
-                                <Link to='/credit-card'>
+                                <Link to='/home-loan'>
                                     <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
                                         <div className='contebt-img'>
                                             <img src='./img/home-loan.png' className='mx-auto h-16 w-16 object-fit object-center' />
@@ -57,7 +57,7 @@ export default function MainScreen() {
                                 </Link>
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
-                                <Link to='/credit-card'>
+                                <Link to='/demat-account'>
                                     <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
                                         <div className='contebt-img'>
                                             <img src='./img/demat-acct.png' className='mx-auto h-16 w-16 object-fit object-center' />
@@ -69,7 +69,7 @@ export default function MainScreen() {
                                 </Link>
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
-                                <Link to='/credit-card'>
+                                <Link to='/saving-account'>
                                     <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
                                         <div className='contebt-img'>
                                             <img src='./img/savings.png' className='mx-auto h-16 w-16 object-fit object-center' />
