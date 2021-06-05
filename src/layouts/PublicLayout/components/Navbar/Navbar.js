@@ -5,13 +5,18 @@ import { Link } from 'react-router-dom';
 import { SubNavBanner } from './components';
 const Navbar = () => {
   const [hideOnScroll, setHideOnScroll] = useState(true);
-  const [toggleDrawer_Loan, setToggleDrawer_Loan] = useState(false);
+  const [toggleDrawerLoan, setToggleDrawerLoan] = useState(false);
   const [toggleDrawer_Investment, setToggleDrawer_Investment] = useState(false);
   const [toggleDrawer_LearnResources, setToggleDrawer_LearnResources] = useState(false);
   const [showmobileMenu, setMobileMenu] = useState('hide');
 
   const handleMobileMenu = () => {
     setMobileMenu('hide');
+  }
+
+  const handleLoan = () =>{
+    console.log('ajajja');
+    setToggleDrawerLoan(!toggleDrawerLoan)
   }
 
   useScrollPosition(
@@ -118,7 +123,7 @@ const Navbar = () => {
                         </svg>
                       </button>
                       {
-                        toggleDrawer_Loan ?
+                        toggleDrawerLoan ?
                           <div
                             class="z-50 transition-all duration-500 absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-xl sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
                           >
@@ -128,12 +133,15 @@ const Navbar = () => {
                               <div class="relative flex bg-white px-2 py-3">
                                 <a
                                   href="#"
-                                  class="-m-1 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                  class="-m-1 p-1 flex items-between rounded-lg hover:bg-gray-50"
                                 >
-                                  <img
+                                  {/* <img
                                     src="/img/details.png"
                                     class="flex-shrink-0 h-8 w-8 mt-3"
-                                  />
+                                  /> */}
+                                  <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
+
+                                  </div>
                                   <div class="ml-4">
                                     <p class="text-base font-medium text-gray-900">
                                       Home Loan
@@ -146,12 +154,15 @@ const Navbar = () => {
                                 </a>
                                 <a
                                   href="#"
-                                  class="-m-1 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                  class="-m-1 p-1 flex items-start rounded-lg hover:bg-gray-50"
                                 >
-                                  <img
+                                  {/* <img
                                     src="/img/email.png"
                                     class="flex-shrink-0 h-8 w-8 mt-3"
-                                  />
+                                  /> */}
+                                  <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
+
+                                  </div>
 
                                   <div class="ml-4">
                                     <p class="text-base font-medium text-gray-900">
@@ -160,68 +171,6 @@ const Navbar = () => {
                                     <p class="mt-1 text-sm text-gray-500">
                                       Speak directly to your customers in a more meaningful
                                       way.
-                                                        </p>
-                                  </div>
-                                </a>
-                              </div>
-                              <div class="relative flex bg-white px-2 py-1">
-                                <a
-                                  href="#"
-                                  class="-m-1 p-3 flex bg-gray-100 mr-2 items-start rounded-lg hover:bg-gray-100"
-                                >
-                                  <img
-                                    src="/img/ontime.png"
-                                    class="flex-shrink-0 h-8 w-8 mt-3"
-                                  />
-
-                                  <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">
-                                      Card Loan
-                                                        </p>
-                                    <p class="mt-1 text-sm text-gray-500">
-                                      Get a better understanding of where your traffic is
-                                      coming from.
-                                                        </p>
-                                  </div>
-                                </a>
-
-                                <a
-                                  href="#"
-                                  class="-m-1 p-3 flex bg-gray-100 items-start rounded-lg hover:bg-gray-100"
-                                >
-                                  <img
-                                    src="/img/responsive.png"
-                                    class="flex-shrink-0 h-8 w-8 mt-3"
-                                  />
-
-                                  <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">
-                                      Educational Loan
-                                                        </p>
-                                    <p class="mt-1 text-sm text-gray-500">
-                                      Speak directly to your customers in a more meaningful
-                                      way.
-                                                        </p>
-                                  </div>
-                                </a>
-                              </div>
-                              <div class="relative flex bg-white px-2 py-2">
-                                <a
-                                  href="#"
-                                  class="-m-1 p-3 w-72 bg-gray-100 flex items-start rounded-lg hover:bg-gray-100"
-                                >
-                                  <img
-                                    src="/img/search.png"
-                                    class="flex-shrink-0 h-8 w-8 mt-3"
-                                  />
-
-                                  <div class="ml-4">
-                                    <p class="text-base font-medium text-gray-900">
-                                      Used Card Loan
-                                                        </p>
-                                    <p class="mt-1 text-sm text-gray-500">
-                                      Get a better understanding of where your traffic is
-                                      coming from.
                                                         </p>
                                   </div>
                                 </a>

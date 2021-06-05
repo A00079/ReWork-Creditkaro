@@ -1,14 +1,16 @@
 import React from 'react'
-import { DematAccountForm, DematAccountScore, WhatIsDematAccount, TypesDematAccount, StepsDematAccount, DematAccountCampaigns } from './Components';
+import { DematAccountForm, Documents, StepsInDematAccount, DematAccountScore, WhatIsDematAccount, BenefitsDematAccount, StepsDematAccount, DematAccountCampaigns } from './Components';
 export default function Creditcard(props) {
     return (
         <React.Fragment>
             <DematAccountForm />
             <DematAccountScore />
             <WhatIsDematAccount />
-            <StepsDematAccount />
-            <TypesDematAccount />
+            <Documents />
+            {/* <StepsDematAccount /> */}
             <DematAccountCampaigns />
+            <StepsInDematAccount />
+            <BenefitsDematAccount />
         </React.Fragment>
     )
 }

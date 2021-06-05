@@ -9,9 +9,10 @@ export default function Stepscreditcard() {
                         <h1
                             class="sm:text-3xl text-2xl font-bold title-font text-indigo-900 lg:mb-0 mb-4"
                         >
-                            Simple Steps CreditCard<br />
+                            Simple Steps Personal Loan<br />
                             <div class="text-sm text-gray-500 mt-1">
-                                Follow the simple 6 Steps to complete your Credit Card Process.
+                                How To Apply
+                                Instant Personal Loan online.
                         </div>
                         </h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
@@ -99,7 +100,7 @@ export default function Stepscreditcard() {
                                 <h1
                                     class="sm:text-3xl md:text-2xl text-left font-bold title-font mb-0 text-indigo-900"
                                 >
-                                    Documents required
+                                    Documents required for personal loan application
                                 </h1>
                                 <p
                                     class="text-left text-gray-400 font-semibold leading-relaxed text-base"
@@ -123,8 +124,7 @@ export default function Stepscreditcard() {
                                             <path d="M22 4L12 14.01l-3-3"></path>
                                         </svg>
                                         <span class="text-xs title-font text-white font-medium"
-                                        >Identity Proof (Anyone)</span
-                                        >
+                                        >Address Proof</span>
                                     </div>
                                 </div>
                                 <div class="p-2 pl-0 w-full">
@@ -137,24 +137,6 @@ export default function Stepscreditcard() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-2 pl-0 w-40">
-                                    <div class="bg-indigo-900 rounded flex p-2 h-12 items-center">
-                                        <svg
-                                            fill="none"
-                                            stroke="currentColor"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="3"
-                                            class="text-white w-6 h-6 flex-shrink-0 mr-4"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                            <path d="M22 4L12 14.01l-3-3"></path>
-                                        </svg>
-                                        <span class="text-xs title-font text-white font-medium"
-                                        >Address Proof</span>
-                                    </div>
-                                </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
                                         <div class="w-28 h-16 bg-gray-100 rounded-lg  mr-4">
@@ -162,24 +144,6 @@ export default function Stepscreditcard() {
                                         <div class="flex-grow">
                                             <h2 class="text-gray-900 text-sm title-font font-medium">Address Proof: Aadhaar/Passport/ Driving license, Phone bill, electricity bill, Rental agreement & Two recent passport-sized photographs</h2>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="p-2 pl-0 w-40">
-                                    <div class="bg-indigo-900 rounded flex p-2 h-12 items-center">
-                                        <svg
-                                            fill="none"
-                                            stroke="currentColor"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="3"
-                                            class="text-white w-6 h-6 flex-shrink-0 mr-4"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                            <path d="M22 4L12 14.01l-3-3"></path>
-                                        </svg>
-                                        <span class="text-xs title-font text-white font-medium"
-                                        >Financial documents</span>
                                     </div>
                                 </div>
                                 <div class="p-2 pl-0 w-full">

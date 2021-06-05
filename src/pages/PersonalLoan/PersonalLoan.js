@@ -1,5 +1,5 @@
 import React from 'react'
-import { PersonalLoanForm, PersonalLoanScore, WhatIsPersonalLoan, TypesPersonalLoan, StepsPersonalLoan, PersonalLoanCampaigns } from './Components';
+import { PersonalLoanForm, StepsToApply, Benefits, FactorsAffecting, PersonalLoanScore, WhatIsPersonalLoan, TypesPersonalLoan, StepsPersonalLoan, PersonalLoanCampaigns } from './Components';
 export default function Creditcard(props) {
     return (
         <React.Fragment>
@@ -7,8 +7,11 @@ export default function Creditcard(props) {
             <PersonalLoanScore />
             <WhatIsPersonalLoan />
             <StepsPersonalLoan />
+            <FactorsAffecting />
             <TypesPersonalLoan />
+            <Benefits />
             <PersonalLoanCampaigns />
+            <StepsToApply />
         </React.Fragment>
     )
 }

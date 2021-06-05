@@ -1,13 +1,15 @@
 import React from 'react'
-import { SavingAccountForm, SavingAccountScore, WhatIsSavingAccount, TypesSavingAccount, StepsSavingAccount, SavingAccountCampaigns } from './Components';
-export default function Creditcard(props) {
+import { SavingAccountForm, Documents, StepsInSavingAccount, SavingAccountScore, WhatIsSavingAccount, TypesSavingAccount, StepsSavingAccount, SavingAccountCampaigns } from './Components';
+export default function SavingAccount(props) {
     return (
         <React.Fragment>
             <SavingAccountForm />
             <SavingAccountScore />
             <WhatIsSavingAccount />
-            <StepsSavingAccount />
-            <TypesSavingAccount />
+            <Documents />
+            <StepsInSavingAccount />
+            {/* <StepsSavingAccount /> */}
+            {/* <TypesSavingAccount /> */}
             <SavingAccountCampaigns />
         </React.Fragment>
     )

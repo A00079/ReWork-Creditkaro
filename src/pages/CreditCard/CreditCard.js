@@ -1,5 +1,5 @@
 import React from 'react'
-import { CreditForm, CreditScore, WhatIsCreditCard, TypesCreditCards, StepsCreditCard, CreditCampaigns } from './Components';
+import { CreditForm, CreditScore, WhatIsCreditCard, TypesCreditCards, StepsCreditCard, CreditCampaigns, CreditLimit } from './Components';
 export default function Creditcard(props) {
     return (
         <React.Fragment>
@@ -9,6 +9,7 @@ export default function Creditcard(props) {
             <StepsCreditCard />
             <TypesCreditCards />
             <CreditCampaigns />
+            <CreditLimit />
         </React.Fragment>
     )
 }
