@@ -9,9 +9,9 @@ export default function Stepscreditcard() {
                         <h1
                             class="sm:text-3xl text-2xl font-bold title-font text-indigo-900 lg:mb-0 mb-4"
                         >
-                            Simple Steps CreditCard<br />
+                            Simple Steps Home Loan<br />
                             <div class="text-sm text-gray-500 mt-1">
-                                Follow the simple 6 Steps to complete your Credit Card Process.
+                                Follow the simple 6 Steps to complete your Home Loan Process.
                         </div>
                         </h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
