@@ -49,7 +49,7 @@ const Navbar = () => {
                 >
                   <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="#">
-                      <span class="text-white px-24 sm:px-16 font-bold">Workflow</span>
+                      <span class="text-white px-24 sm:px-16 font-bold">Bank Dunia</span>
                     </a>
                   </div>
                   <div class="-mr-2 -my-2 pt-1 md:hidden">
