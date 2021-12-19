@@ -1,6 +1,16 @@
 import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/saving-money.json';
 
-export default function Creditform(props) {
+export default function SavingAccountform(props) {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <React.Fragment>
             <section class="text-gray-600 body-font">
@@ -8,6 +18,13 @@ export default function Creditform(props) {
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
                         <h1 class="title-font sm:text-4xl text-3xl mb-7 font-bold text-indigo-600">Saving Account
                         </h1>
+                        <div className=''>
+                            <Lottie
+                                options={defaultOptions}
+                                height={200}
+                                width={250}
+                            />
+                        </div>
                         <p class="mb-3 leading-relaxed">A savings account is a savings account held by a bank or other financial institution that pays interest. While these accounts often yield a low interest rate, their consistency and dependability make them an excellent choice for storing cash that you wish to have ready for short-term needs.</p>
                         <p class="mb-3 leading-relaxed">Savings plans have some restrictions on how frequently you can withdraw money, but they typically offer excellent flexibility that is ideal for establishing an emergency fund, saving for a short-term goal such as buying a car or going on vacation, or simply sweeping the excess cash in your bank account so it can earn more interest elsewhere.</p>
                     </div>

@@ -1,6 +1,16 @@
 import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/personal-loan.json';
 
-export default function Creditform(props) {
+export default function PersonalLoanform(props) {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <React.Fragment>
             <section class="text-gray-600 body-font">
@@ -8,6 +18,13 @@ export default function Creditform(props) {
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">Personal Loan
                         </h1>
+                        <div className=''>
+                            <Lottie
+                                options={defaultOptions}
+                                height={250}
+                                width={350}
+                            />
+                        </div>
                         <p class="mb-3 leading-relaxed">A personal loan is a loan that does not require collateral or security and is available with little paperwork.</p>
                         <p class="mb-3 leading-relaxed">This loan's cash can be used for any reasonable financial need. You must repay it in accordance with the terms agreed upon with the bank, just like any other loan.</p>
                         <p class="mb-3 leading-relaxed">Typically, this can range from a few months to a few years in simple equivalent monthly instalments.

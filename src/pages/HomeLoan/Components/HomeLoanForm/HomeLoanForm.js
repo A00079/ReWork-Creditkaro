@@ -1,13 +1,30 @@
 import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/house-loan.json';
 
-export default function Creditform(props) {
+export default function HomeLoanform(props) {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <React.Fragment>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-8 mx-auto flex flex-wrap items-center">
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">House Loan
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">House Loan
                         </h1>
+                        <div className=''>
+                            <Lottie
+                                options={defaultOptions}
+                                height={250}
+                                width={250}
+                            />
+                        </div>
                         <p class="mb-3 leading-relaxed">A loan is a type of debt that an individual or other entity incurs. The lender, who is typically a corporation, financial institution, or government, lends money to the borrower. </p>
                         <p class="mb-3 leading-relaxed">In exchange, the borrower agrees to a set of terms, which may include finance charges, interest, a payback date, and other conditions. In some circumstances, collateral may be required by the lender to secure the loan and assure repayment. Bonds and certificates of deposit can also be used to make loans (CDs). </p>
                     </div>

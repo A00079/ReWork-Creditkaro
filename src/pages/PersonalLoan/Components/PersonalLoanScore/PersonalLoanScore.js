@@ -13,7 +13,7 @@ export default function Creditscore(props) {
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0  mr-4" src="/img/speedometer.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Credit score</h2>
                                     <p class="text-gray-500">This is a 3 digit number that sums up how you have handled repayments of your credit cards and personal loans in the past. This score is calculated by credit bureaus and ranges from 300 to 900. The closer your credit score is to 900, the better your chances of being approved for a new personal loan</p>
@@ -22,7 +22,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/self-employed.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Employment Type and Employer Reputation</h2>
                                     <p class="text-gray-500">Banks usually offer personal loans to both salaried professionals working in private, government or multinational companies as well as self-employed individuals and professionals like businessmen, CA (chartered accountants), doctors, architects, etc. Salaried professionals working in renowned organisations or government employees are preferred by lenders for a personal loan because of their job stability and employer reputation</p>
@@ -31,7 +31,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0  mr-4" src="/img/expense.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Minimum income</h2>
                                     <p class="text-gray-500">The minimum monthly income criteria set by most of the banks for salaried professionals is Rs. 15,000. Although, individuals with a minimum monthly income of Rs. 25,000 are preferred more by the banks. And for self-employed individuals, a gross annual income of minimum Rs. 5 lakh is usually needed to qualify for a personal loan</p>
@@ -40,7 +40,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/briefcase.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Work/Business experience</h2>
                                     <p class="text-gray-500">Many banks specify that salaried individuals need to have a minimum total work experience of 2 years with minimum 6 months in the current organisation in order to qualify for a personal loan. In case of self-employed individuals and professionals, they usually need to have been in the current business for minimum 2 years in order to be eligible for an unsecured personal loan</p>

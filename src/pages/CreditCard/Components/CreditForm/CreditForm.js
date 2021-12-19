@@ -1,6 +1,16 @@
 import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/credit-card.json';
 
 export default function Creditform(props) {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <React.Fragment>
             <section class="text-gray-600 body-font">
@@ -8,6 +18,13 @@ export default function Creditform(props) {
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">Credit Card
                         </h1>
+                        <div className=''>
+                        <Lottie
+                            options={defaultOptions}
+                            height={250}
+                            width={250}
+                        />
+                        </div>
                         <p class="mb-3 leading-relaxed font-medium">A credit card is a small rectangular piece of plastic or metal provided by a bank or financial services business that allows cardholders to borrow funds to pay for products and services from retailers who accept credit cards.</p>
                         <p class="leading-relaxed font-medium">Credit cards require cardholders to repay the borrowed funds, plus any related interest, as well as any extra agreed charges, in full by the billing date or over time.</p>
                     </div>

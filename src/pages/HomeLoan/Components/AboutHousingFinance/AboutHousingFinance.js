@@ -1,6 +1,16 @@
 import React from 'react'
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/house-loan.json';
 
 export default function Abouthousingfinance(props) {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <>
             <section class="text-gray-600 body-font">
@@ -16,7 +26,14 @@ export default function Abouthousingfinance(props) {
                         </p>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                        {/* <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
+                        <div className=''>
+                            <Lottie
+                                options={defaultOptions}
+                                height={400}
+                                width={400}
+                            />
+                        </div>
                     </div>
                 </div>
             </section>

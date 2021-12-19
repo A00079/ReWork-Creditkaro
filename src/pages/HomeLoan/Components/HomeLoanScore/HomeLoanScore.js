@@ -13,7 +13,7 @@ export default function Creditscore(props) {
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full ">
                             <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/tax-calculate.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold text-lg">Tax benefits</h2>
                                     <p class="text-gray-500">The foremost benefit of a home loan is the income tax deduction you can claim on the interest and principal repayments. You can claim up to Rs.1.5 lakh on principal repayments u/s 80C, up to Rs.2 lakh on interest repayments u/s 24B, up to Rs.2 lakh on interest repayment in special circumstances u/s 80EE and 80EEA, and up to Rs.1.5 lakh on stamp duty expenses u/s 80C.</p>
@@ -22,7 +22,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/cost.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold text-lg">Lower interest rate</h2>
                                     <p class="text-gray-500">The home loan interest rate is much lower as compared to any other loan types available. If you come across a cash crunch, you may get a top-up on the existing home loan at a lower interest rate than a personal loan to solve the issue.</p>
@@ -31,7 +31,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/property-insurance.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold text-lg">Due diligence of property</h2>
                                     <p class="text-gray-500">When you go through a bank to purchase a house, the bank will conduct thorough checks on the property from the legal perspective and check if all the documents produced are valid.
@@ -42,7 +42,7 @@ export default function Creditscore(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/cash-payment.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold text-lg">Long repayment tenure</h2>
                                     <p class="text-gray-500">Unlike any other loans, home loans come with longer repayment tenure, as much as 25-30 years. This is owing to the significant loan amount one will have to borrow to purchase a house.

@@ -14,7 +14,7 @@ export default function Typescreditcards(props) {
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/home-loan.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Home Loan</h2>
                                     <p class="text-gray-500">This is the most common type of home loan availed to purchase a house. There are many housing finance companies, public banks, and private banks that offer housing loans where you borrow money to purchase the house of your choice and repay the loan in monthly instalments.
@@ -25,7 +25,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/hook.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Home Construction Loan</h2>
                                     <p class="text-gray-500">This is the right home loan type if you already have a plot of land and you need financing to construct a house in that land. </p>
@@ -34,7 +34,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/extension-cord.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Home Extension Loan</h2>
                                     <p class="text-gray-500">A home improvement loan provides financing for renovating or repairing the house if there’s any fault in the existing system, such as painting the house’s interior or exterior, plumbing, upgrading the electrical system, waterproofing the ceiling, and more.</p>
@@ -43,7 +43,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/sales.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Home Improvement Loan</h2>
                                     <p class="text-gray-500">The current home loan interest rate may be overwhelming, or you may not be happy with your current lender’s service; you can transfer the home loan’s outstanding balance to a different lender who offers a lower interest rate and better service. Upon transfer, you can even check out the possibilities of a top-up loan on your existing one. </p>

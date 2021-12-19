@@ -13,7 +13,7 @@ export default function Typescreditcards(props) {
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0 mr-4" src="/img/stopwatch.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Short Term Personal Loan (STPL)</h2>
                                     <p class="text-gray-500">Offered by many digital lenders, a short term personal loan starts from as low as Rs. 1000 and can be repaid within a few days to months to the lender. This type of personal loan is disbursed to your account within a few hours and requires almost no formality</p>
@@ -22,7 +22,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/wedding.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold"> Wedding loan</h2>
                                     <p class="text-gray-500">This loan aims to help couples and families deal with the pressure of wedding finances. It can be used to fund major wedding expenses like venue, accommodation for guests, jewellery, catering, decoration, etc. The interest rates for these loans are usually higher during the peak wedding season as compared to the off season</p>
@@ -31,7 +31,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/loan.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Top- up loan</h2>
                                     <p class="text-gray-500">This loan is offered by the same lender from which you have already taken a personal loan. With a top- up loan, you can avail more funds on your existing loan and can repay them within your existing tenure. However, this type of loan is only offered by the lender if you have been regular with your repayment</p>
@@ -40,7 +40,7 @@ export default function Typescreditcards(props) {
                         </div>
                         <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90" />
+                                <img alt="team" class="w-16 h-16  object-cover object-center flex-shrink-0  mr-4" src="/img/vacations.png" />
                                 <div class="flex-grow">
                                     <h2 class="text-gray-700 title-font font-bold">Vacation loan</h2>
                                     <p class="text-gray-500">If you are planning a vacation and wish to take care of your travel bills without draining your savings or affecting your monthly budget, this is the kind of loan you should go for. While credit cards can also do the task for you, a holiday loan can make the funds readily available for your travel plans and that too at a lower interest rate</p>

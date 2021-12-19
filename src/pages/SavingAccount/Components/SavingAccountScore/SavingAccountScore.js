@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Creditscore(props) {
+
+export default function SavingAcctScorescore(props) {
     return (
         <React.Fragment>
             <section class="text-gray-600 body-font">
