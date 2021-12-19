@@ -6,9 +6,9 @@ export default function SavingAccount(props) {
             <SavingAccountForm />
             <SavingAccountScore />
             <WhatIsSavingAccount />
-            <Documents />
+            {/* <Documents /> */}
             <StepsInSavingAccount />
-            {/* <StepsSavingAccount /> */}
+            <StepsSavingAccount />
             {/* <TypesSavingAccount /> */}
             <SavingAccountCampaigns />
         </React.Fragment>

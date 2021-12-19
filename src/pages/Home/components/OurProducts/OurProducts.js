@@ -3,7 +3,7 @@ import React from 'react';
 const OurProduct = () => {
     return (
         <React.Fragment>
-            <div class="container px-5 py-2 mx-auto">
+            {/* <div class="container px-5 py-2 mx-auto">
                 <div class="flex flex-wrap w-full mb-8 sm:mb-16">
                     <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-indigo-600 fnt-sty-nunito">Our Products Kickstarter Taxidermy</h1>
@@ -45,7 +45,7 @@ const OurProduct = () => {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whateverr ify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
                     </div>
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
@@ -131,7 +131,19 @@ const OurProduct = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
+
+
+            <div class="w-full h-screen relative py-20">
+                <div class="absolute w-full h-full z-10 ">
+                    
+                </div>
+                
+                <video class="w-full h-64 lg:h-screen object-cover -mt-8" loop="true" autoplay="autoplay" muted >
+                    <source class="h-screen object-contain" src="/videos/ourpro.mp4" type="video/mp4" ></source>
+                </video>
+
+            </div>
         </React.Fragment>
     )
 }

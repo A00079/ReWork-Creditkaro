@@ -7,7 +7,7 @@ export default function Creditcard(props) {
             <AboutHousingFinance />
             <Eligibility />
             <HomeLoanScore />
-            <WhatIsHomeLoan />
+            {/* <WhatIsHomeLoan /> */}
             <StepsHomeLoan />
             <TypesHomeLoan />
             <HomeLoanCampaigns />

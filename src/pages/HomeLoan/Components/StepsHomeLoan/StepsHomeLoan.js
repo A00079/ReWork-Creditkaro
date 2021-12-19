@@ -3,7 +3,7 @@ import React from 'react';
 export default function Stepscreditcard() {
     return (
         <>
-            <div class="container mx-auto flex w-full mb-7 flex-wrap px-8">
+            <div class="container mx-auto flex w-full mb-7 pt-24 flex-wrap px-8">
                 <div class="flex flex-wrap w-full">
                     <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1
@@ -34,7 +34,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed">Completed home loan application form</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -48,7 +48,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                                    <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                                    <p class="leading-relaxed">Passport size photographs</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -63,7 +63,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                                    <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                                    <p class="leading-relaxed">Proof of Identification: (Any one of the below)</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">

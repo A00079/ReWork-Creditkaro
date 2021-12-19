@@ -6,10 +6,10 @@ export default function Creditform(props) {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-8 mx-auto flex flex-wrap items-center">
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                            <br class="hidden lg:inline-block" />readymade gluten
+                        <h1 class="title-font sm:text-4xl text-3xl mb-7 font-bold text-indigo-600">Saving Account
                         </h1>
-                        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                        <p class="mb-3 leading-relaxed">A savings account is a savings account held by a bank or other financial institution that pays interest. While these accounts often yield a low interest rate, their consistency and dependability make them an excellent choice for storing cash that you wish to have ready for short-term needs.</p>
+                        <p class="mb-3 leading-relaxed">Savings plans have some restrictions on how frequently you can withdraw money, but they typically offer excellent flexibility that is ideal for establishing an emergency fund, saving for a short-term goal such as buying a car or going on vacation, or simply sweeping the excess cash in your bank account so it can earn more interest elsewhere.</p>
                     </div>
                     <div class="lg:w-1/2 md:w-1/2 bg-gray-100 rounded-lg px-6 py-6 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                         <h2 class="text-gray-500 text-lg font-bold title-font mb-1">The Card That Suits You!</h2>

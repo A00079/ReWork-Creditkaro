@@ -11,7 +11,7 @@ export default function Creditcard(props) {
             <TypesPersonalLoan />
             <Benefits />
             <PersonalLoanCampaigns />
-            <StepsToApply />
+            {/* <StepsToApply /> */}
         </React.Fragment>
     )
 }

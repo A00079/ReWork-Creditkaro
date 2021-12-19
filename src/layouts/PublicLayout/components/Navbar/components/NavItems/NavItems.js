@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Navitems() {
     const [toggleDrawerLoan, setToggleDrawerLoan] = useState(false);
@@ -8,11 +9,14 @@ export default function Navitems() {
     return (
         <>
             <div class="relative">
-                <button
-                    class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
-                >
-                    <span>Credit Card</span>
-                </button>
+                <Link to='/credit-card'>
+
+                    <button
+                        class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none mr-10 focus:text-indigo-500"
+                    >
+                        <span>Credit Card</span>
+                    </button>
+                </ Link>
                 <button
                     onClick={() => setToggleDrawerLoan(!toggleDrawerLoan)}
                     class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none"
@@ -67,15 +71,20 @@ export default function Navitems() {
                                         <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
 
                                         </div>
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">
-                                                Home Loan
-                                </p>
-                                            <p class="mt-1 text-sm text-gray-500">
-                                                Get a better understanding of where your traffic is
-                                                coming from.
-                                                        </p>
-                                        </div>
+                                        <Link to='/home-loan'>
+
+                                            <div class="ml-4">
+
+                                                <p class="text-base font-medium text-gray-900">
+                                                    Home Loan
+                                                </p>
+                                                <p class="mt-1 text-sm text-gray-500">
+                                                    Get a better understanding of where your traffic is
+                                                    coming from.
+                                                </p>
+                                            </div>
+                                        </ Link>
+
                                     </a>
                                     <a
                                         href="#"
@@ -84,16 +93,19 @@ export default function Navitems() {
                                         <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
 
                                         </div>
+                                        <Link to='/personal-loan'>
 
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">
-                                                Personal Loan
-                                                        </p>
-                                            <p class="mt-1 text-sm text-gray-500">
-                                                Speak directly to your customers in a more meaningful
-                                                way.
-                                                        </p>
-                                        </div>
+                                            <div class="ml-4">
+                                                <p class="text-base font-medium text-gray-900">
+                                                    Personal Loan
+                                                </p>
+                                                <p class="mt-1 text-sm text-gray-500">
+                                                    Speak directly to your customers in a more meaningful
+                                                    way.
+                                                </p>
+                                            </div>
+                                        </ Link>
+
                                     </a>
                                 </div>
                             </div>
@@ -139,7 +151,7 @@ export default function Navitems() {
                 {
                     toggleDrawer_Investment ?
                         <div
-                            class="z-50 absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                            class="z-50 absolute z-10 left-1/5 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
                         >
                             <div
                                 class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
@@ -155,15 +167,19 @@ export default function Navitems() {
                                             src="/img/search.png"
                                             class="flex-shrink-0 h-10 w-10 mt-3"
                                         />
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">
-                                                Demat Account
-                                                        </p>
-                                            <p class="mt-1 text-sm text-gray-500">
-                                                Get all of your questions answered in our forums or
-                                                contact support.
-                                                        </p>
-                                        </div>
+                                        <Link to='/demat-account'>
+
+                                            <div class="ml-4">
+                                                <p class="text-base font-medium text-gray-900">
+                                                    Demat Account
+                                                </p>
+                                                <p class="mt-1 text-sm text-gray-500">
+                                                    Get all of your questions answered in our forums or
+                                                    contact support.
+                                                </p>
+                                            </div>
+                                        </ Link>
+
                                     </a>
 
                                     <a
@@ -174,15 +190,19 @@ export default function Navitems() {
                                             src="/img/documentation.png"
                                             class="flex-shrink-0 h-10 w-10 mt-3"
                                         />
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">
-                                                Savings Account
-                                                        </p>
-                                            <p class="mt-1 text-sm text-gray-500">
-                                                Learn how to maximize our platform to get the most out
-                                                of it.
-                                                        </p>
-                                        </div>
+                                        <Link to='/saving-account'>
+
+                                            <div class="ml-4">
+                                                <p class="text-base font-medium text-gray-900">
+                                                    Savings Account
+                                                </p>
+                                                <p class="mt-1 text-sm text-gray-500">
+                                                    Learn how to maximize our platform to get the most out
+                                                    of it.
+                                                </p>
+                                            </div>
+                                        </ Link>
+
                                     </a>
                                 </div>
                             </div>
@@ -190,7 +210,7 @@ export default function Navitems() {
                         : null
                 }
             </div>
-            <div class="relative">
+            {/* <div class="relative">
                 <button
                     onClick={() => setToggleDrawer_LearnResources(!toggleDrawer_LearnResources)}
                     class="group rounded-md text-white inline-flex md:text-sm items-center text-base font-medium hover:text-gray-400 focus:outline-none"
@@ -250,11 +270,11 @@ export default function Navitems() {
                                         <div class="ml-4">
                                             <p class="text-base font-medium text-gray-900">
                                                 Demat Account
-                        </p>
+                                            </p>
                                             <p class="mt-1 text-sm text-gray-500">
                                                 Get all of your questions answered in our forums or
                                                 contact support.
-                        </p>
+                                            </p>
                                         </div>
                                     </a>
 
@@ -269,11 +289,11 @@ export default function Navitems() {
                                         <div class="ml-4">
                                             <p class="text-base font-medium text-gray-900">
                                                 Savings Account
-                        </p>
+                                            </p>
                                             <p class="mt-1 text-sm text-gray-500">
                                                 Learn how to maximize our platform to get the most out
                                                 of it.
-                        </p>
+                                            </p>
                                         </div>
                                     </a>
 
@@ -288,11 +308,11 @@ export default function Navitems() {
                                         <div class="ml-4">
                                             <p class="text-base font-medium text-gray-900">
                                                 Mutual Funds
-                        </p>
+                                            </p>
                                             <p class="mt-1 text-sm text-gray-500">
                                                 See what meet-ups and other events we might be
                                                 planning near you.
-                        </p>
+                                            </p>
                                         </div>
                                     </a>
 
@@ -307,10 +327,10 @@ export default function Navitems() {
                                         <div class="ml-4">
                                             <p class="text-base font-medium text-gray-900">
                                                 Fixed Deposit
-                        </p>
+                                            </p>
                                             <p class="mt-1 text-sm text-gray-500">
                                                 Understand how we take your privacy seriously.
-                        </p>
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
@@ -318,7 +338,7 @@ export default function Navitems() {
                         </div>
                         : null
                 }
-            </div>
+            </div> */}
         </>
     )
 }

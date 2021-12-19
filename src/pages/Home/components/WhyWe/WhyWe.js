@@ -1,126 +1,106 @@
-import React from 'react';
-
+import React, {useState} from 'react';
+import '../../../../App.css'
 const WhyWe = () => {
+    const [products, setProducts] = useState([
+        {
+            'title': 'Credit Card',
+            'img': 'credit-card.png'
+        },
+        {
+            'title': 'Demat Account',
+            'img': 'demat-acct-home.png'
+        },
+        {
+            'title': 'Health Care',
+            'img': 'healthcare.svg'
+        },
+        {
+            'title': 'Home Loan',
+            'img': 'mobilehomeloan.png'
+        },
+        {
+            'title': 'Life Insurance',
+            'img': 'lifeinsurance.png'
+        },
+        {
+            'title': 'Personal Loan',
+            'img': 'personalloan.png'
+        },
+        {
+            'title': 'Saving Account',
+            'img': 'savings.png'
+        },
+        {
+            'title': 'Mutual Funds',
+            'img': 'homeloan.png'
+        }
+    ])
     return (
         <React.Fragment>
-            <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-20">
-                        <h1 class="text-4xl font-medium title-font mb-4 text-indigo-600 tracking-widest fnt-sty-nunito">Why We</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
-                    </div>
-                    <div class="flex flex-wrap -m-4">
-                        <div class="p-4 lg:w-1/2">
-                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
-                                <div class="flex-grow sm:pl-8">
-                                    <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
-                                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                                    <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                    <span class="inline-flex">
-                                        <a class="text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                            </svg>
-                                        </a>
-                                    </span>
+
+
+            <div class="min-h-screen bg-white">
+                <main>
+                    <section class="juice3 bg-white bg-opacity-90 py-10">
+                        <div class="container mx-auto px-4 flex flex-col lg:flex-row">
+                            <div class="juice relative lg:w-2/3 rounded-xl  bg-cover p-8 md:p-16">
+                                <p class="max-w-sm text-secondary text-3xl md:text-4xl font-semibold">Active Summer With Juice Milk 300ml</p>
+                                <p class="max-w-xs pr-10 text-secondary font-semibold mt-8">New arrivals with naturre fruits, juice milks, essential for summer</p>
+                                <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button>
+
+                            </div>
+                            <div class="juice2 mt-6 lg:mt-0 lg:ml-6 lg:w-1/3 rounded-xl bg-primary-lite bg-cover p-8 md:p-16">
+                                <div class="max-w-sm">
+                                    <p class="text-3xl md:text-4xl font-semibold uppercase">20% sale off</p>
+                                    <p class="mt-8 font-semibold">Syncthetic seeds<br />2.0 OZ</p>
+                                    <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-4 lg:w-1/2">
-                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201" />
-                                <div class="flex-grow sm:pl-8">
-                                    <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
-                                    <h3 class="text-gray-500 mb-3">Designer</h3>
-                                    <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                    <span class="inline-flex">
-                                        <a class="text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
+                    </section>
+
+                    <section class="container mx-auto pt-12 bg-white">
+                        <div class="relative flex items-end font-bold">
+                            <h2 class="text-2xl">Our Products</h2>
+                            <a href class="ml-10 flex items-center text-gray-400">
+                                <svg class="ml-3 h-3.5" aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-right fa-w-8 fa-9x"><path fill="currentColor" d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"></path></svg>
+                            </a>
                         </div>
-                        <div class="p-4 lg:w-1/2">
-                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204" />
-                                <div class="flex-grow sm:pl-8">
-                                    <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-                                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                                    <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                    <span class="inline-flex">
-                                        <a class="text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
+                        <div class="mt-10">
+                            <ul class="-m-3.5 flex">
+                                {
+                                    products.map((el, index) => {
+                                        return (
+                                            <li class="m-3.5 h-52 w-40 bg-gray-100 rounded-xl flex flex-col items-center justify-center text-center duration-300 hover:bg-white hover:shadow-2xl">
+                                                <img class="max-h-20" src={`/img/ourproduct/${el.img}`} alt="" />
+                                                <span class="font-semibold">{el.title}</span>
+                                            </li>
+                                        )
+                                    })
+                                }
+
+                            </ul>
                         </div>
-                        <div class="p-4 lg:w-1/2">
-                            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206" />
-                                <div class="flex-grow sm:pl-8">
-                                    <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-                                    <h3 class="text-gray-500 mb-3">Designer</h3>
-                                    <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                    <span class="inline-flex">
-                                        <a class="text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                                            </svg>
-                                        </a>
-                                        <a class="ml-2 text-gray-500">
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                            </svg>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
+                    </section>
+
+                    <section class="container mx-auto pt-12">
+                        <div class="relative flex items-end font-bold">
+                            <h2 class="text-2xl">Featured Brands</h2>
+                            <a href class="ml-10 flex items-center text-gray-400">
+                                <svg class="ml-3 h-3.5" aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-right fa-w-8 fa-9x"><path fill="currentColor" d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"></path></svg>
+                            </a>
                         </div>
-                    </div>
-                </div>
-            </section>
+                        <div class="mt-10">
+                            <ul class="-m-3.5 flex">
+                                <li class="product m-3.5 h-48 w-1/4 bg-cover rounded-xl"></li>
+                                <li class="product2 m-3.5 h-48 w-1/4 bg-cover rounded-xl"></li>
+                                <li class="product4 m-3.5 h-48 w-1/4 bg-cover rounded-xl"></li>
+                                <li class="product3 m-3.5 h-48 w-1/4 bg-cover rounded-xl"></li>
+                            </ul>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </React.Fragment>
     )
 }

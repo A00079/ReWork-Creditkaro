@@ -1,52 +1,66 @@
-import React from 'react';
+import React from "react";
+import Lottie from 'react-lottie';
+import animationData from '../../../../assets/animations/why-us.json';
 
-const keyFeatures = () => {
-
+export default function Example() {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <React.Fragment>
-            <section class="text-gray-600 body-font">
-                <div class="container px-5 py-32 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-20">
-                        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">OUR PROCESS</h2>
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">OUR WORKING PROCESS</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            <section class="text-blueGray-700 bg-white mt-20">
+                <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+                    <div class="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
+                        <h2 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> We are the best </h2>
+                        <h1 class="mb-8 text-2xl font-black tracking-tighter text-indigo-600 md:text-5xl title-font"> Why Choose Us </h1>
+                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page. </p>
+                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page. </p>
                     </div>
-                    <div class="flex flex-wrap">
-                        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
-                            <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                            <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
+                    <div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
+                        {/* <img class="object-cover object-center rounded-lg " alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" /> */}
+                        <Lottie
+                            options={defaultOptions}
+                            height={300}
+                            width={300}
+                        />
+                    </div>
+                </div>
+            </section>
+            <section class="text-gray-600 body-font">
+                <div class="container px-24 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-yellow-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EASY</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EASY FOR ALL</h1>
+                                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            </div>
                         </div>
-                        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
-                            <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                            <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EXCLUSIVE</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXCLUSIVE OFFERS</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            </div>
                         </div>
-                        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
-                            <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                            <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-yellow-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">SWIFT</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">SWIFT AND BRISK</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            </div>
                         </div>
-                        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
-                            <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                            <a class="text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EXTENSIVE</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXTENSIVE RESEARCH</h1>
+                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,5 +68,3 @@ const keyFeatures = () => {
         </React.Fragment>
     )
 }
-
-export default keyFeatures;

@@ -3,6 +3,7 @@ import React from "react";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from 'react-router-dom';
 import { SubNavBanner, NavItems, MobileMenu } from './components';
+
 const Navbar = () => {
   const [hideOnScroll, setHideOnScroll] = useState(true);
   const [mbmenu, setmbmenu] = useState(false);

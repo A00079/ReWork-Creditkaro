@@ -6,88 +6,47 @@ export default function Typescreditcards(props) {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">TYPES OF HOME LOAN</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">TYPES OF HOME LOAN</h2>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">Types of Home Loans in India</h1>
+
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Buying a house is one of the biggest dreams come true for most people and an extravagant affair altogether. Imparting life to such a dream requires a lot of effort from the buyers’ end and the best one can do to accommodate the home in their budget is through a home loan</p>
                     </div>
                     <div class="flex flex-wrap -m-2">
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                 <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
                                 <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
-                                    <p class="text-gray-500">UI Designer</p>
+                                    <h2 class="text-gray-700 title-font font-bold">Home Loan</h2>
+                                    <p class="text-gray-500">This is the most common type of home loan availed to purchase a house. There are many housing finance companies, public banks, and private banks that offer housing loans where you borrow money to purchase the house of your choice and repay the loan in monthly instalments.
+
+                                        You can get up to 80%-90% of the house’s market price in the form of financing. The lender will hold the house until you completely repay the loan.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                 <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
                                 <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
-                                    <p class="text-gray-500">CTO</p>
+                                    <h2 class="text-gray-700 title-font font-bold">Home Construction Loan</h2>
+                                    <p class="text-gray-500">This is the right home loan type if you already have a plot of land and you need financing to construct a house in that land. </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                 <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
                                 <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Oskar Blinde</h2>
-                                    <p class="text-gray-500">Founder</p>
+                                    <h2 class="text-gray-700 title-font font-bold">Home Extension Loan</h2>
+                                    <p class="text-gray-500">A home improvement loan provides financing for renovating or repairing the house if there’s any fault in the existing system, such as painting the house’s interior or exterior, plumbing, upgrading the electrical system, waterproofing the ceiling, and more.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                 <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
                                 <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-                                    <p class="text-gray-500">DevOps</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Martin Eden</h2>
-                                    <p class="text-gray-500">Software Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Boris Kitua</h2>
-                                    <p class="text-gray-500">UX Researcher</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90" />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Atticus Finch</h2>
-                                    <p class="text-gray-500">QA Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Alper Kamu</h2>
-                                    <p class="text-gray-500">System</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98" />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font font-medium">Rodrigo Monchi</h2>
-                                    <p class="text-gray-500">Product Manager</p>
+                                    <h2 class="text-gray-700 title-font font-bold">Home Improvement Loan</h2>
+                                    <p class="text-gray-500">The current home loan interest rate may be overwhelming, or you may not be happy with your current lender’s service; you can transfer the home loan’s outstanding balance to a different lender who offers a lower interest rate and better service. Upon transfer, you can even check out the possibilities of a top-up loan on your existing one. </p>
                                 </div>
                             </div>
                         </div>

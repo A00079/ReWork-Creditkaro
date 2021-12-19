@@ -6,10 +6,10 @@ export default function Creditform(props) {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-8 mx-auto flex flex-wrap items-center">
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                            <br class="hidden lg:inline-block" />readymade gluten
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">House Loan
                         </h1>
-                        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                        <p class="mb-3 leading-relaxed">A loan is a type of debt that an individual or other entity incurs. The lender, who is typically a corporation, financial institution, or government, lends money to the borrower. </p>
+                        <p class="mb-3 leading-relaxed">In exchange, the borrower agrees to a set of terms, which may include finance charges, interest, a payback date, and other conditions. In some circumstances, collateral may be required by the lender to secure the loan and assure repayment. Bonds and certificates of deposit can also be used to make loans (CDs). </p>
                     </div>
                     <div class="lg:w-1/2 md:w-1/2 bg-gray-100 rounded-lg px-6 py-6 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                         <h2 class="text-gray-500 text-lg font-bold title-font mb-1">The Card That Suits You!</h2>

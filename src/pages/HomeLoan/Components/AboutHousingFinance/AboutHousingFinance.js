@@ -6,14 +6,14 @@ export default function Abouthousingfinance(props) {
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Housing Finance
-                        <br class="hidden lg:inline-block" />readymade gluten
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">About Housing Loan
                         </h1>
-                        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-                        <div class="flex justify-center">
-                            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-                        </div>
+                        <p class="mb-3 leading-relaxed">A house loan, also known as a home loan, is a quantity of money borrowed from a financial institution or bank to acquire a home. Home loans have an adjustable or fixed interest rate as well as payment terms. </p>
+                        <p class="mb-3 leading-relaxed">People typically take out a home loan to either purchase a house/flat or a plot of land for the construction of a house, or to renovate, extend, and repair an existing property </p>
+                        <p class="mb-3 leading-relaxed">The property is mortgaged to the lender as security until the loan is repaid. The bank or financial organisation will keep the title or deed to the property until the loan is repaid in full, including interest. </p>
+                        <p class="mb-3 leading-relaxed">Home loan interest rates can be fixed or floating, or partly fixed and partly floating, depending on the borrower's demands.
+                            Certain tax incentives are also available on your home loan under Section 80EE of the Income Tax Act. However, only first-time home buyers are eligible for the income tax deduction on house loan interest.
+                        </p>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />

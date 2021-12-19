@@ -1,13 +1,14 @@
 import React from 'react';
-import { MainScreen, KeyFeatures, OurProducts, WhyWe, AboutUs } from './components';
+import { MainScreen, KeyFeatures, WhatPeopleSay, OurProducts, WhyWe, AboutUs } from './components';
 const Home = () => {
   return (
     <React.Fragment>
       <MainScreen />
-      <KeyFeatures />
-      <OurProducts />
       <WhyWe />
+      {/* <OurProducts /> */}
+      <KeyFeatures />
       <AboutUs />
+      <WhatPeopleSay />
     </React.Fragment>
   )
 };

@@ -8,7 +8,7 @@ const Footer = () => {
     <React.Fragment>
       <footer class="text-gray-600 body-font bg-gray-900">
         <div class="px-0 py-6">
-          <div class="md:hidden lg:hidden xl:hidden bg-gray-800 mb-8 w-full">
+          {/* <div class="md:hidden lg:hidden xl:hidden bg-gray-800 mb-8 w-full">
             <h4
               class="text-xl text-white text-left title-font pt-4 ml-5 tracking-tight font-semibold"
             >
@@ -88,8 +88,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div class="hidden md:block lg:block xl:block">
+          </div> */}
+          {/* <div class="hidden md:block lg:block xl:block">
             <div class="flex flex-row bg-gray-800 mb-8 w-full">
               <h4
                 class="text-xl text-white title-font mr-12 pl-28 mt-5 ml-5 tracking-tight font-semibold"
@@ -151,7 +151,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             class="container mx-auto px-5 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
           >
@@ -370,7 +370,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             class="hidden md:block lg:block xl:block mt-12 md:mt-2 lg:mt-2 xl:mt-2 p-2"
           >
             <div class="flex justify-around">
@@ -383,8 +383,8 @@ const Footer = () => {
                 <p class="text-sm font-semibold text-gray-300">Secured By</p>
               </div>
             </div>
-          </div>
-          <div class="hidden md:block lg:block xl:block mt-1 p-2">
+          </div> */}
+          {/* <div class="hidden md:block lg:block xl:block mt-1 p-2">
             <div class="flex justify-around">
               <div class="flex flex-row justify-center items-center">
                 <p class="text-gray-400 pl-5">
@@ -427,8 +427,8 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             class="md:hidden lg:hidden xl:hidden mt-12 md:mt-2 lg:mt-2 xl:mt-2 p-2"
           >
             <div>
@@ -482,7 +482,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div class="bg-gray-900 border-t-2 border-gray-700">
           <div
