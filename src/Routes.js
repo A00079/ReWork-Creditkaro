@@ -11,6 +11,7 @@ import PersonalLoan from "./pages/PersonalLoan";
 import HomeLoan from "./pages/HomeLoan";
 import DematAccount from "./pages/DematAccount";
 import SavingAccount from "./pages/SavingAccount";
+import SpecialOffersForYou from "./pages/SpecialOffersForYou";
 
 import {
   BrowserView,
@@ -57,6 +58,12 @@ const Routes = () => {
           path="/saving-account"
           layout={PublicLayout}
           component={SavingAccount}
+        />
+        <WithLayoutRoute
+          exact
+          path="/special-offers"
+          layout={PublicLayout}
+          component={SpecialOffersForYou}
         />
         <Route path="*" component={() => "404 NOT FOUND"} />
       </Switch>
