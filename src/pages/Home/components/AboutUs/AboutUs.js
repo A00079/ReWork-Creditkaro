@@ -25,8 +25,11 @@ const AboutUs = () => {
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">About Our Company</h2>
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">About Us</h1>
-                        <p class="mb-3 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
-                        <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher. Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+                        <p class="mb-3 leading-relaxed">Our goal is to become a one-stop solution provider for any issues that arise when you query about any present or upcoming financial product. At CreditKaro, we have a diverse inventory of banking and financial products, as well as exclusive offers.
+
+
+                        </p>
+                        <p class="text-sm mt-2 text-gray-500 mb-8 w-full">On our website, we provide a wide range of products and allow you to compare them before making a purchase. What else is there? You can also check your credit score for free right here!</p>
                     </div>
                 </div>
             </section>

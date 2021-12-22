@@ -13,7 +13,7 @@ export default function Stepscreditcard() {
                             <div class="text-sm text-gray-500 mt-1">
                                 How To Apply
                                 Instant Personal Loan online.
-                        </div>
+                            </div>
                         </h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
@@ -35,7 +35,18 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed font-bold text-gray-700">Personal Loan Application Process Online</p>
+                                    <p>
+                                        If the personal loan applicant has an existing relationship with the financial lender, he/she can apply for a personal loan via his/her net banking account and could possibly be eligible for a pre-approval. For other customers, they can apply for a personal loan online by following the steps mentioned below:
+                                        <br />
+                                        •	Visit the website of the financial lender.<br />
+                                        •	Under the loan section, choose personal loans.<br />
+                                        •	Click on the ‘apply now’ option.<br />
+                                        •	Enter the details in the personal loan application form and submit it to the bank.<br />
+                                        •	The bank will assess the eligibility of the applicant and request for the submission of the required KYC documents and income documents.<br />
+                                        •	If the applicant is found eligible, the bank will disburse the loan amount to the bank account of the applicant, as mentioned in the application form.
+
+                                    </p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -49,49 +60,17 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                                    <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
-                                </div>
-                            </div>
-                            <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
-                                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <circle cx="12" cy="5" r="3"></circle>
-                                        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                                    <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
-                                </div>
-                            </div>
-                            <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
-                                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                                        <circle cx="12" cy="7" r="4"></circle>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
-                                </div>
-                            </div>
-                            <div class="flex relative">
-                                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                        <path d="M22 4L12 14.01l-3-3"></path>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
-                                    <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                                    <p class="leading-relaxed font-bold text-gray-700">Personal loan application offline</p>
+                                    <p>
+                                        Listed below is the process of applying for a personal loan at the branch of the financial lender:
+                                        <br />
+                                        •	Visit the branch of the financial lender.<br />
+                                        •	Procure the personal loan application form and enter all the required details.<br />
+                                        •	Submit relevant documents that prove one’s income, age, address and identity.<br />
+                                        •	The lender will then verify the documents and check the eligibility of the applicant.<br />
+                                        •	The loan amount will be transferred to the bank account of the applicant if he/she is found eligible.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -124,14 +103,14 @@ export default function Stepscreditcard() {
                                             <path d="M22 4L12 14.01l-3-3"></path>
                                         </svg>
                                         <span class="text-xs title-font text-white font-medium"
-                                        >Address Proof</span>
+                                        >Documents Required</span>
                                     </div>
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
+                                        {/* <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
 
-                                        </div>
+                                        </div> */}
                                         <div class="flex-grow">
                                             <h2 class="text-gray-900 title-font text-sm font-medium">Identity Proof (Anyone): Aadhaar card/ Passport/ PAN CARD/ Voter ID card</h2>
                                         </div>
@@ -139,8 +118,8 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-28 h-16 bg-gray-100 rounded-lg  mr-4">
-                                        </div>
+                                        {/* <div class="w-28 h-16 bg-gray-100 rounded-lg  mr-4">
+                                        </div> */}
                                         <div class="flex-grow">
                                             <h2 class="text-gray-900 text-sm title-font font-medium">Address Proof: Aadhaar/Passport/ Driving license, Phone bill, electricity bill, Rental agreement & Two recent passport-sized photographs</h2>
                                         </div>
@@ -148,8 +127,8 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
-                                        </div>
+                                        {/* <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
+                                        </div> */}
                                         <div class="flex-grow">
                                             <h2 class="text-gray-900 text-sm title-font font-medium">Financial documents: Salaried: Latest three-month salary slip</h2>
                                         </div>

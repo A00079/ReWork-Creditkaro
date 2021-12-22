@@ -118,9 +118,6 @@ export default function Stepsindemataccount(props) {
                                 <p class="leading-relaxed text-base">There is no limit on the minimum number of securities to keep your account active. </p>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>

@@ -205,7 +205,7 @@ const Footer = () => {
                   </li>
                 </nav>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
                 >
@@ -225,8 +225,8 @@ const Footer = () => {
                     <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
                   </li>
                 </nav>
-              </div>
-              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+              </div> */}
+              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
                 >
@@ -246,8 +246,8 @@ const Footer = () => {
                     <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
                   </li>
                 </nav>
-              </div>
-              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+              </div> */}
+              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
                 >
@@ -267,13 +267,13 @@ const Footer = () => {
                     <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
                   </li>
                 </nav>
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="hidden md:block lg:block xl:block bg-gray-700 mt-6 p-2">
             <div class="flex justify-around">
               <div class="flex flex-row justify-center items-center">
-                <p class="text-gray-400 pl-5">Investors</p>
+                {/* <p class="text-gray-400 pl-5">Investors</p> */}
                 <p class="text-gray-400 pl-5">Privacy Policy</p>
                 <p class="text-gray-400 pl-5">Terms of Use</p>
                 <p class="text-gray-400 pl-5">Disclaimer</p>

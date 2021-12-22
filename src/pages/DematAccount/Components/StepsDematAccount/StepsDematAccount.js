@@ -9,10 +9,10 @@ export default function Stepscreditcard() {
                         <h1
                             class="sm:text-3xl text-2xl font-bold title-font text-indigo-900 lg:mb-0 mb-4"
                         >
-                            Simple Steps CreditCard<br />
+                             Simple Steps Demat Account<br />
                             <div class="text-sm text-gray-500 mt-1">
                                 Follow the simple 6 Steps to complete your Credit Card Process.
-                        </div>
+                            </div>
                         </h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
@@ -34,7 +34,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed">Apply for A Demat Account Online</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -48,7 +48,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                                    <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                                    <p class="leading-relaxed">Submit The KYC Details Online</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -63,7 +63,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                                    <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                                    <p class="leading-relaxed">Get Your Documents Verified</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -78,7 +78,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed">Acquire Beneficiary Owner Identity (BOID)</p>
                                 </div>
                             </div>
                             <div class="flex relative">
@@ -133,7 +133,7 @@ export default function Stepscreditcard() {
 
                                         </div>
                                         <div class="flex-grow">
-                                            <h2 class="text-gray-900 title-font text-sm font-medium">Identity Proof (Anyone): Aadhaar card/ Passport/ PAN CARD/ Voter ID card</h2>
+                                            <h2 class="text-gray-900 title-font text-sm font-medium">Identity Proof (Anyone): A copy of your PAN card with your photo</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ export default function Stepscreditcard() {
                                             <path d="M22 4L12 14.01l-3-3"></path>
                                         </svg>
                                         <span class="text-xs title-font text-white font-medium"
-                                        >Address Proof</span>
+                                        >Other Documents Proof</span>
                                     </div>
                                 </div>
                                 <div class="p-2 pl-0 w-full">
@@ -160,7 +160,23 @@ export default function Stepscreditcard() {
                                         <div class="w-28 h-16 bg-gray-100 rounded-lg  mr-4">
                                         </div>
                                         <div class="flex-grow">
-                                            <h2 class="text-gray-900 text-sm title-font font-medium">Address Proof: Aadhaar/Passport/ Driving license, Phone bill, electricity bill, Rental agreement & Two recent passport-sized photographs</h2>
+                                            <h2 class="text-gray-900 text-sm title-font font-medium">
+                                                Address proof: A copy of any one of the following documents shall serve as proof of your residence.<br />
+                                                Voter’s identity card<br />
+                                                Registered lease agreement<br />
+                                                Driver’s license<br />
+                                                Passport<br />
+                                                Aadhaar card<br />
+                                                Landline telephone bill<br />
+                                                Electricity bill<br />
+                                                Apartment maintenance bill<br />
+                                                Copy of your insurance<br />
+                                                Ration card<br />
+                                                Gas bill<br />
+                                                Bank passbook or account statement (not older than 3 months from the date of receipt of documents)<br />
+                                                Bank account proof: A copy of your bank account passbook or bank statement (not older than 3 months)<br />
+                                                Proof of your income: A copy of your latest salary slips or your Income Tax Return (mandatory for currency and derivatives segment)
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>
