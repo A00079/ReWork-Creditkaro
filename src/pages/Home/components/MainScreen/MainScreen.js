@@ -22,7 +22,7 @@ export default function MainScreen() {
                         <div class="grid grid-cols-12 sm:grid-cols-10 gap-2 w-full">
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/credit-card'>
-                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full hover:shadow-2xl hover:border-yellow-300 hover:bg-yellow-50">
                                         <div className='contebt-img'>
                                             <img src='./img/credit-card.png' className='mx-auto h-16 w-16 object-fit object-center' />
                                         </div>
@@ -34,7 +34,7 @@ export default function MainScreen() {
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/personal-loan'>
-                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full hover:shadow-2xl hover:border-yellow-300 hover:bg-yellow-50">
                                         <div className='contebt-img'>
                                             <img src='./img/personalloan.png' className='mx-auto h-16 w-16 object-fit object-center' />
                                         </div>
@@ -46,7 +46,7 @@ export default function MainScreen() {
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/home-loan'>
-                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full hover:shadow-2xl hover:border-yellow-300 hover:bg-yellow-50">
                                         <div className='contebt-img'>
                                             <img src='./img/home-loan.png' className='mx-auto h-16 w-16 object-fit object-center' />
                                         </div>
@@ -58,7 +58,7 @@ export default function MainScreen() {
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/demat-account'>
-                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full hover:shadow-2xl hover:border-yellow-300 hover:bg-yellow-50">
                                         <div className='contebt-img'>
                                             <img src='./img/demat-acct.png' className='mx-auto h-16 w-16 object-fit object-center' />
                                         </div>
@@ -70,7 +70,7 @@ export default function MainScreen() {
                             </div>
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/saving-account'>
-                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full">
+                                    <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3  bg-white shadow-lg border border-gray-300 rounded-md w-full h-full hover:shadow-2xl hover:border-yellow-300 hover:bg-yellow-50">
                                         <div className='contebt-img'>
                                             <img src='./img/savings.png' className='mx-auto h-16 w-16 object-fit object-center' />
                                         </div>

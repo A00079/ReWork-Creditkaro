@@ -6,6 +6,14 @@
   font-family: Nunito !important;
 }
 
+.loancontainerhiden {
+  display: none;
+}
+
+.loancontainer:hover + .loancontainerhiden,
+.loancontainerhiden:hover {
+    display: block;
+}
 .vert-move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 0.7s infinite alternate;

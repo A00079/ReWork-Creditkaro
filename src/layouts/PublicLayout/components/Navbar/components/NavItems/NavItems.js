@@ -18,8 +18,7 @@ export default function Navitems() {
                     </button>
                 </ Link>
                 <button
-                    onClick={() => setToggleDrawerLoan(!toggleDrawerLoan)}
-                    class="group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none"
+                    class="loancontainer group rounded-md text-white inline-flex items-center md:text-sm text-base font-medium hover:text-gray-400 focus:outline-none"
                 >
                     <span>Loans</span>
                     {
@@ -51,72 +50,71 @@ export default function Navitems() {
                             </svg>
                     }
                 </button>
-                {
-                    toggleDrawerLoan ?
-                        <div
-                            class="z-50 transition-all duration-500 absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-xl sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
-                        >
-                            <div
-                                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
+                <div
+                    class="loancontainerhiden z-50 transition-all duration-500 absolute z-10 -ml-4  transform px-2 w-screen max-w-xl sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+                >
+                    <div
+                        class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
+                    >
+                        <div class="relative flex bg-white px-2 py-3">
+                            <a
+                                href="#"
+                                class="-m-1 p-1 flex items-between rounded-lg hover:bg-gray-50"
                             >
-                                <div class="relative flex bg-white px-2 py-3">
-                                    <a
-                                        href="#"
-                                        class="-m-1 p-1 flex items-between rounded-lg hover:bg-gray-50"
-                                    >
-                                        {/* <img
-                                    src="/img/details.png"
-                                    class="flex-shrink-0 h-8 w-8 mt-3"
-                                  /> */}
-                                        <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
 
-                                        </div>
-                                        <Link to='/home-loan'>
-
-                                            <div class="ml-4">
-
-                                                <p class="text-base font-medium text-gray-900">
-                                                    Home Loan
-                                                </p>
-                                                <p class="mt-1 text-sm text-gray-500">
-                                                    Get a better understanding of where your traffic is
-                                                    coming from.
-                                                </p>
-                                            </div>
-                                        </ Link>
-
-                                    </a>
-                                    <a
-                                        href="#"
-                                        class="-m-1 p-1 flex items-start rounded-lg hover:bg-gray-50"
-                                    >
-                                        <div className='flex-shrink-0 h-12 w-12 rounded-lg mt-3 bg-gray-200'>
-
-                                        </div>
-                                        <Link to='/personal-loan'>
-
-                                            <div class="ml-4">
-                                                <p class="text-base font-medium text-gray-900">
-                                                    Personal Loan
-                                                </p>
-                                                <p class="mt-1 text-sm text-gray-500">
-                                                    Speak directly to your customers in a more meaningful
-                                                    way.
-                                                </p>
-                                            </div>
-                                        </ Link>
-
-                                    </a>
+                                <div className='flex-shrink-0 rounded-lg mt-3 '>
+                                    <img
+                                        src="/img/search.png"
+                                        class="flex-shrink-0 h-10 w-10"
+                                    />
                                 </div>
-                            </div>
-                        </div> : null
-                }
+                                <Link to='/home-loan'>
 
+                                    <div class="ml-4">
+
+                                        <p class="text-base font-medium text-gray-900">
+                                            Home Loan
+                                        </p>
+                                        <p class="mt-1 text-sm text-gray-500">
+                                            Get a better understanding of where your traffic is
+                                            coming from.
+                                        </p>
+                                    </div>
+                                </ Link>
+
+                            </a>
+                            <a
+                                href="#"
+                                class="-m-1 p-1 flex items-start rounded-lg hover:bg-gray-50"
+                            >
+                                <div className='flex-shrink-0  rounded-lg mt-3'>
+                                <img
+                                        src="/img/documentation.png"
+                                        class="flex-shrink-0 h-10 w-10"
+                                    />
+                                </div>
+                                <Link to='/personal-loan'>
+
+                                    <div class="ml-4">
+                                        <p class="text-base font-medium text-gray-900">
+                                            Personal Loan
+                                        </p>
+                                        <p class="mt-1 text-sm text-gray-500">
+                                            Speak directly to your customers in a more meaningful
+                                            way.
+                                        </p>
+                                    </div>
+                                </ Link>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="relative">
                 <button
-                    onClick={() => setToggleDrawer_Investment(!toggleDrawer_Investment)}
-                    class="group rounded-md text-white inline-flex md:text-sm items-center text-base font-medium hover:text-gray-400 focus:outline-none"
+
+                    class="loancontainer group rounded-md text-white inline-flex md:text-sm items-center text-base font-medium hover:text-gray-400 focus:outline-none"
                 >
                     <span>Investments</span>
                     {
@@ -148,67 +146,65 @@ export default function Navitems() {
                     }
                 </button>
 
-                {
-                    toggleDrawer_Investment ?
+
+                <div
+                    class="loancontainerhiden z-50 absolute z-10 left-1/5 transform -translate-x-1/2 px-2 w-screen max-w-md sm:px-0"
+                >
+                    <div
+                        class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
+                    >
                         <div
-                            class="z-50 absolute z-10 left-1/5 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                            class="relative grid gap-8 bg-white px-5 py-6 sm:gap-8 sm:p-8"
                         >
-                            <div
-                                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
+                            <a
+                                href="#"
+                                class="-m-5 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
-                                <div
-                                    class="relative grid gap-8 bg-white px-5 py-6 sm:gap-8 sm:p-8"
-                                >
-                                    <a
-                                        href="#"
-                                        class="-m-5 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                    >
-                                        <img
-                                            src="/img/search.png"
-                                            class="flex-shrink-0 h-10 w-10 mt-3"
-                                        />
-                                        <Link to='/demat-account'>
+                                <img
+                                    src="/img/search.png"
+                                    class="flex-shrink-0 h-10 w-10 mt-3"
+                                />
+                                <Link to='/demat-account'>
 
-                                            <div class="ml-4">
-                                                <p class="text-base font-medium text-gray-900">
-                                                    Demat Account
-                                                </p>
-                                                <p class="mt-1 text-sm text-gray-500">
-                                                    Get all of your questions answered in our forums or
-                                                    contact support.
-                                                </p>
-                                            </div>
-                                        </ Link>
+                                    <div class="ml-4">
+                                        <p class="text-base font-medium text-gray-900">
+                                            Demat Account
+                                        </p>
+                                        <p class="mt-1 text-sm text-gray-500">
+                                            Get all of your questions answered in our forums or
+                                            contact support.
+                                        </p>
+                                    </div>
+                                </ Link>
 
-                                    </a>
+                            </a>
 
-                                    <a
-                                        href="#"
-                                        class="-m-5 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                    >
-                                        <img
-                                            src="/img/documentation.png"
-                                            class="flex-shrink-0 h-10 w-10 mt-3"
-                                        />
-                                        <Link to='/saving-account'>
+                            <a
+                                href="#"
+                                class="-m-5 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                            >
+                                <img
+                                    src="/img/documentation.png"
+                                    class="flex-shrink-0 h-10 w-10 mt-3"
+                                />
+                                <Link to='/saving-account'>
 
-                                            <div class="ml-4">
-                                                <p class="text-base font-medium text-gray-900">
-                                                    Savings Account
-                                                </p>
-                                                <p class="mt-1 text-sm text-gray-500">
-                                                    Learn how to maximize our platform to get the most out
-                                                    of it.
-                                                </p>
-                                            </div>
-                                        </ Link>
+                                    <div class="ml-4">
+                                        <p class="text-base font-medium text-gray-900">
+                                            Savings Account
+                                        </p>
+                                        <p class="mt-1 text-sm text-gray-500">
+                                            Learn how to maximize our platform to get the most out
+                                            of it.
+                                        </p>
+                                    </div>
+                                </ Link>
 
-                                    </a>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                        : null
-                }
+                    </div>
+                </div>
+
             </div>
             {/* <div class="relative">
                 <button

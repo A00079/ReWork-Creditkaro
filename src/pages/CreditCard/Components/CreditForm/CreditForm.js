@@ -86,7 +86,9 @@ const Creditform = (props) => {
             .then(function (result) {
                 // User signed in successfully.
                 // console.log("Result" + result.verificationID);
-                props.history.push('special-offers');
+                // props.history.push('special-offers');
+                props.history.push({ pathname: 'special-offers', type: 'credit-card' });
+
 
             })
             .catch(function (error) {

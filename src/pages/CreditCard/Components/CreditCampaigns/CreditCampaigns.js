@@ -288,8 +288,8 @@ export default function Creditcampaigns(props) {
                         {
                             cardsDetailData.map((el, index) => {
                                 return (
-                                    <div class="p-4 lg:w-1/2 w-full">
-                                        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                                    <div class="p-4 lg:w-1/2 w-full ">
+                                        <div class="bg-white border-2 border-gray-300 rounded-md p-4 h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                                             <img alt="team" class="flex-shrink-0 rounded-lg w-48 object-cover object-center sm:mb-0 mb-4" src={`/img/creditCards/${el.img}`} />
                                             <div class="flex-grow sm:pl-8">
                                                 <h2 class="w-full title-font font-bold text-lg  text-indigo-700">{el.card_name}</h2>

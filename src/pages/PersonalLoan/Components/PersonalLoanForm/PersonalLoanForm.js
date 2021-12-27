@@ -47,33 +47,34 @@ const PersonalLoanform = (props) => {
 
     const onSignInSubmit = (e) => {
         e.preventDefault();
-        console.log('Inputs', input);
-        if (!!input.firstname && !!input.lastname && !!input.contact && !!input.email && !!input.birthdate && !!input.averageannualincome) {
-            if (input.contact.toString().length == 10) {
-                setUpRecaptcha();
-                let phoneNumber = "+91" + '8169029085';
-                console.log(phoneNumber);
-                let appVerifier = window.recaptchaVerifier;
-                firebase
-                    .auth()
-                    .signInWithPhoneNumber(phoneNumber, appVerifier)
-                    .then(function (confirmationResult) {
-                        // SMS sent. Prompt user to type the code from the message, then sign the
-                        // user in with confirmationResult.confirm(code).
-                        window.confirmationResult = confirmationResult;
-                        // console.log(confirmationResult);
-                        console.log("OTP is sent");
-                        setIsFormSubmited(true);
-                    })
-                    .catch(function (error) {
-                        console.log(error);
-                    });
-            } else {
-                alert('Wrong number entered.');
-            }
-        } else {
-            alert('All Fields are required.');
-        }
+        props.history.push({ pathname: 'special-offers', type: 'personal-loan' });
+        // console.log('Inputs', input);
+        // if (!!input.firstname && !!input.lastname && !!input.contact && !!input.email && !!input.birthdate && !!input.averageannualincome) {
+        //     if (input.contact.toString().length == 10) {
+        //         setUpRecaptcha();
+        //         let phoneNumber = "+91" + '8169029085';
+        //         console.log(phoneNumber);
+        //         let appVerifier = window.recaptchaVerifier;
+        //         firebase
+        //             .auth()
+        //             .signInWithPhoneNumber(phoneNumber, appVerifier)
+        //             .then(function (confirmationResult) {
+        //                 // SMS sent. Prompt user to type the code from the message, then sign the
+        //                 // user in with confirmationResult.confirm(code).
+        //                 window.confirmationResult = confirmationResult;
+        //                 // console.log(confirmationResult);
+        //                 console.log("OTP is sent");
+        //                 setIsFormSubmited(true);
+        //             })
+        //             .catch(function (error) {
+        //                 console.log(error);
+        //             });
+        //     } else {
+        //         alert('Wrong number entered.');
+        //     }
+        // } else {
+        //     alert('All Fields are required.');
+        // }
     };
 
     const onSubmitOtp = (e) => {
