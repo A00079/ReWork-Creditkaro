@@ -228,8 +228,8 @@ export default function SavingAccountCampaigns(props) {
                     </div>
                     <div className='px-10 mb-10'>
                         <div className='bg-white px-5 shadow-md rounded-md py-5 w-full border-2 border-gray-200'>
-                            <div className='flex flex-row justify-between items-center'>
-                                <div className='flex flex-row justify-start items-center space-x-5'>
+                        <div className='flex flex-col sm:flex-row justify-between items-center space-y-5 sm:space-y-0'>
+                                <div className='flex flex-col sm:flex-row justify-start items-center space-x-5 space-y-5 sm:space-y-0'>
                                     <p className='text-sm font-bold'>Filter By -</p>
                                     <div className='w-40'>
                                         <FormControl className='w-40'>

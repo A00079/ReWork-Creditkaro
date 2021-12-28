@@ -27,11 +27,18 @@ export default function Abouthousingfinance(props) {
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         {/* <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
-                        <div className=''>
+                        <div className='sm:block hidden'>
                             <Lottie
                                 options={defaultOptions}
-                                height={400}
-                                width={400}
+                                height={250}
+                                width={450}
+                            />
+                        </div>
+                        <div className='sm:hidden block'>
+                            <Lottie
+                                options={defaultOptions}
+                                height={100}
+                                width={200}
                             />
                         </div>
                     </div>

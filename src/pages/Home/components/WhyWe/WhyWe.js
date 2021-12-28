@@ -59,7 +59,7 @@ const WhyWe = () => {
                         </div>
                     </section>
 
-                    <section class="container mx-auto pt-12 bg-white">
+                    <section class="container px-4 pt-12 bg-white">
                         <div class="relative flex items-end font-bold">
                             <h2 class="text-2xl">Our Products</h2>
                             <a href class="ml-10 flex items-center text-gray-400">
@@ -67,11 +67,11 @@ const WhyWe = () => {
                             </a>
                         </div>
                         <div class="mt-10">
-                            <ul class="-m-3.5 flex">
+                            <ul class="-m-3.5 grid sm:grid-cols-4 grid-cols-2 gap-4">
                                 {
                                     products.map((el, index) => {
                                         return (
-                                            <li class="m-3.5 h-52 w-40 bg-gray-100 rounded-xl flex flex-col items-center justify-center text-center duration-300 hover:bg-white hover:shadow-2xl">
+                                            <li class="h-full w-full p-5 cursor-pointer bg-gray-100 rounded-xl flex flex-col items-center justify-center text-center duration-300 hover:bg-white hover:shadow-2xl">
                                                 <img class="max-h-20" src={`/img/ourproduct/${el.img}`} alt="" />
                                                 <span class="font-semibold">{el.title}</span>
                                             </li>
@@ -83,7 +83,7 @@ const WhyWe = () => {
                         </div>
                     </section>
 
-                    <section class="container mx-auto pt-12">
+                    {/* <section class="container mx-auto pt-12">
                         <div class="relative flex items-end font-bold">
                             <h2 class="text-2xl">Featured Brands</h2>
                             <a href class="ml-10 flex items-center text-gray-400">
@@ -98,7 +98,7 @@ const WhyWe = () => {
                                 <li class="product3 m-3.5 h-48 w-1/4 bg-cover rounded-xl"></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </main>
             </div>
         </React.Fragment>

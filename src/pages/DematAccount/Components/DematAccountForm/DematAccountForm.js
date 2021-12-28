@@ -102,11 +102,18 @@ import { withRouter } from "react-router";
                     <div class="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-10 pr-0">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-600">DEMAT ACCOUNT
                         </h1>
-                        <div className=''>
+                        <div className='sm:block hidden'>
                             <Lottie
                                 options={defaultOptions}
                                 height={250}
                                 width={450}
+                            />
+                        </div>
+                        <div className='sm:hidden block'>
+                            <Lottie
+                                options={defaultOptions}
+                                height={100}
+                                width={200}
                             />
                         </div>
                         <p class="mb-3 leading-relaxed">A Demat account is often referred to as a Dematerialized account. In other words, maintaining a Demat Account entail transforming or dematerializing your physical shares into an electronic representation. </p>

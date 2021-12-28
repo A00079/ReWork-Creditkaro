@@ -175,16 +175,16 @@ const Footer = () => {
                     d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
                   ></path>
                 </svg>
-                <span class="ml-3 text-xl text-white">Tailblocks</span>
+                <span class="ml-3 text-xl text-white">Credit Buddy</span>
               </a>
-              <p class="mt-2 text-sm text-gray-500">
+              <p class="mt-2 text-sm  text-left text-gray-500">
                 Air plant banjo lyft occupy retro adaptogen indego
           </p>
             </div>
             <div
               class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
             >
-              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
                 >
@@ -204,7 +204,7 @@ const Footer = () => {
                     <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
                   </li>
                 </nav>
-              </div>
+              </div> */}
               {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"

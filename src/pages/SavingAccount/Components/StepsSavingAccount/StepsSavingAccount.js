@@ -11,8 +11,8 @@ export default function Stepscreditcard() {
                         >
                             Simple Steps Saving Account<br />
                             <div class="text-sm text-gray-500 mt-1">
-                                Follow the simple 6 Steps to complete your Credit Card Process.
-                        </div>
+                                Follow the simple  Steps to complete your Saving Account Process.
+                            </div>
                         </h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
@@ -34,7 +34,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed">Visit your nearest bank branch</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -48,7 +48,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                                    <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                                    <p class="leading-relaxed">Fill up account opening form</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -63,7 +63,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                                    <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                                    <p class="leading-relaxed">Submit KYC documents (ID and Address proof)</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
@@ -78,7 +78,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                    <p class="leading-relaxed">Fix your passport size photos on the form.</p>
                                 </div>
                             </div>
                             <div class="flex relative">
@@ -90,7 +90,7 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
-                                    <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                                    <p class="leading-relaxed">Submit a signed cheque if required.</p>
                                 </div>
                             </div>
                         </div>
@@ -129,11 +129,9 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
-
-                                        </div>
+                                        
                                         <div class="flex-grow">
-                                            <h2 class="text-gray-900 title-font text-sm font-medium">Identity Proof (Anyone): Aadhaar card/ Passport/ PAN CARD/ Voter ID card</h2>
+                                            <h2 class="text-gray-900 title-font text-sm font-medium">Identity Proof (Anyone): 5.	Submit a signed cheque if required</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -157,10 +155,10 @@ export default function Stepscreditcard() {
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-28 h-16 bg-gray-100 rounded-lg  mr-4">
-                                        </div>
+                                        
                                         <div class="flex-grow">
-                                            <h2 class="text-gray-900 text-sm title-font font-medium">Address Proof: Aadhaar/Passport/ Driving license, Phone bill, electricity bill, Rental agreement & Two recent passport-sized photographs</h2>
+                                            <h2 class="text-gray-900 text-sm title-font font-medium">Address Proof: Passport, Driving license, Voter’s ID card, etc.
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>
@@ -179,15 +177,17 @@ export default function Stepscreditcard() {
                                             <path d="M22 4L12 14.01l-3-3"></path>
                                         </svg>
                                         <span class="text-xs title-font text-white font-medium"
-                                        >Financial documents</span>
+                                        >Other documents</span>
                                     </div>
                                 </div>
                                 <div class="p-2 pl-0 w-full">
                                     <div class="h-full flex items-center shadow-xl border-gray-200 border p-4 rounded-lg">
-                                        <div class="w-16 h-16 bg-gray-100 rounded-lg  mr-4">
-                                        </div>
+                                        
                                         <div class="flex-grow">
-                                            <h2 class="text-gray-900 text-sm title-font font-medium">Financial documents: Salaried: Latest three-month salary slip</h2>
+                                            <h2 class="text-gray-900 text-sm title-font font-medium">PAN card <br />
+                                                Form 16 (only if PAN card is not available)<br />
+                                                2 latest passport size photographs
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>

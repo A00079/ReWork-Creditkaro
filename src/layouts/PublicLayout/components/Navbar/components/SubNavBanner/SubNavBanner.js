@@ -15,7 +15,7 @@ const SubNavBanner = () => {
     };
     return (
         <React.Fragment>
-            <div style={{ zIndex: "99999" }} class="bg-indigo-600 pt-11 ml-12 md:pt-14 lg:pt-14 xl:pt-14">
+            <div style={{ zIndex: "99999" }} class="bg-indigo-600 pt-12 ml-0 md:pt-14 lg:pt-14 xl:pt-14">
                 <div class="mx-auto py-0 px-0 sm:px-6 lg:px-0">
                     <div class="flex items-center justify-center flex-wrap">
                         <div class="w-0 flex-1 flex items-center">

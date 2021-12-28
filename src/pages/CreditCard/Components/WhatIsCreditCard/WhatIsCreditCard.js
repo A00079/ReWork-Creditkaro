@@ -17,11 +17,18 @@ export default function Whatiscreditcard(props) {
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                         {/* <img class="object-cover object-center rounded w-60" alt="hero" src="/img/credit-card.png" /> */}
-                        <div className=''>
+                        <div className='sm:block hidden'>
                         <Lottie
                             options={defaultOptions}
                             height={400}
                             width={400}
+                        />
+                        </div>
+                        <div className='sm:hidden block'>
+                        <Lottie
+                            options={defaultOptions}
+                            height={200}
+                            width={200}
                         />
                         </div>
                     </div>
