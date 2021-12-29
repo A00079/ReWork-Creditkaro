@@ -59,7 +59,7 @@ const WhyWe = () => {
                         </div>
                     </section>
 
-                    <section class="container px-12 pt-12 bg-white">
+                    <section class="container px-4 sm:px-12 pt-12 bg-white">
                         <div class="relative flex items-end font-bold">
                             <h2 class="text-2xl">Our Products</h2>
                             <a href class="ml-10 flex items-center text-gray-400">

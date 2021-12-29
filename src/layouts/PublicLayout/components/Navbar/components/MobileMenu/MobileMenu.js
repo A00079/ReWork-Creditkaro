@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 export default function Mobilemenu(props) {
-    const [showmobileMenu, setMobileMenu] = useState(true);
+    const [showmobileMenu, setMobileMenu] = useState(false);
 
     const handleMobileMenu = () => {
         setMobileMenu(!showmobileMenu);
@@ -10,9 +10,9 @@ export default function Mobilemenu(props) {
     useEffect(() =>{
         console.log('sjjj',props.mbmenu);
         setMobileMenu(props.mbmenu);
-    },[props]);
+    },[props.mbmenu]);
     return (
-        <>
+        <React.Fragment>
             {
                 showmobileMenu ?
                     <div
@@ -356,6 +356,6 @@ export default function Mobilemenu(props) {
                         </div>
                     </div> : null
             }
-        </>
+        </React.Fragment>
     )
 }

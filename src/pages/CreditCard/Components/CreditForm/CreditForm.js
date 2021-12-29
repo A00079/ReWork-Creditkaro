@@ -4,6 +4,7 @@ import animationData from '../../../../assets/animations/credit-card.json';
 import firebase from '../../../../firebase.js';
 import { withRouter } from "react-router";
 import { CreditScore } from '..';
+import axios from 'axios';
 
 const Creditform = (props) => {
     const [input, setInput] = useState({});
@@ -87,15 +88,34 @@ const Creditform = (props) => {
                 // User signed in successfully.
                 // console.log("Result" + result.verificationID);
                 // props.history.push('special-offers');
+                saveData();
                 props.history.push({ pathname: 'special-offers', type: 'credit-card' });
-
-
             })
             .catch(function (error) {
                 console.log(error);
                 alert("Incorrect OTP");
             });
     };
+
+    const saveData = () => {
+        let data =
+        {
+            "firstName": input.firstname,
+            "contact": input.contact,
+            "lastName": input.lastname,
+            "email": input.email,
+            "birthDate": input.birthdate,
+            "averageAnnualIncome": input.averageannualincome,
+            "gender": input.gender
+        }
+        axios.post('https://credit.candidleads.com/api/v1/details/adddetail?type=creditcard', data)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
 
     return (
         <React.Fragment>

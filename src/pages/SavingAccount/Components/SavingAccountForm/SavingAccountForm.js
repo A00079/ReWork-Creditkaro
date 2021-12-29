@@ -3,6 +3,7 @@ import Lottie from 'react-lottie';
 import animationData from '../../../../assets/animations/saving-money.json';
 import firebase from '../../../../firebase.js';
 import { withRouter } from "react-router";
+import axios from 'axios';
 
 const SavingAccountform = (props) => {
     const [input, setInput] = useState({});
@@ -85,14 +86,34 @@ const SavingAccountform = (props) => {
             .then(function (result) {
                 // User signed in successfully.
                 // console.log("Result" + result.verificationID);
-                props.history.push('special-offers');
-
+                saveData();
+                props.history.push({ pathname: 'special-offers', type: 'saving-account' });
             })
             .catch(function (error) {
                 console.log(error);
                 alert("Incorrect OTP");
             });
     };
+
+    const saveData = () => {
+        let data =
+        {
+            "firstName": input.firstname,
+            "contact": input.contact,
+            "lastName": input.lastname,
+            "email": input.email,
+            "birthDate": input.birthdate,
+            "averageAnnualIncome": input.averageannualincome,
+            "gender": input.gender
+        }
+        axios.post('https://credit.candidleads.com/api/v1/details/adddetail?type=savingaccount', data)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
     return (
         <React.Fragment>
             <div id="recaptcha-container"></div>

@@ -41,22 +41,22 @@ export default function SavingAccountCampaigns(props) {
     const [bankName, setBankName] = React.useState([]);
     const [cardName, setCardName] = React.useState([]);
     const [cardsDetailData, setCardsDetailData] = React.useState([
-        {
-            "card_name": "IndusInd Bank Savings Account",
-            "img": "IndusIndBankSavingsAccount.png",
-            "interest_rate": "4 - 6%*",
-            "minimum_balance": "0",
-            "aoc": "0",
-            "link": "",
-            "type": "IndusInd bank"
-        },
+        // {
+        //     "card_name": "IndusInd Bank Savings Account",
+        //     "img": "IndusIndBankSavingsAccount.png",
+        //     "interest_rate": "4 - 6%*",
+        //     "minimum_balance": "0",
+        //     "aoc": "0",
+        //     "link": "",
+        //     "type": "IndusInd bank"
+        // },
         {
             "card_name": "Fi",
             "img": "Fi.jpg",
             "interest_rate": "5.1%*",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=com.epifi.paisa&referrer=af_tranid%3Du5-AhEa21_-o8ZpbTWfgHw%26pid%3Doptimidea_int%26af_siteid%3D174%26af_click_lookback%3D7d%26clickid%3D61cc3f0bf6c4230342d7a1bd%26af_installpostback%3Dfalse%26af_web_id%3D407b8710-9c6a-440e-9d54-4664c35b3c05-i",
             "type": "Fi"
         },
         {
@@ -65,25 +65,25 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "4%",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/ahome2.action?source=VKYCIL&banner=ILVKYClaunch&pubild=VKYClaunchmailer_3880_3880",
             "type": "Kotak Bank"
         },
-        {
-            "card_name": "Fincare Small Finance Bank",
-            "img": "FincareSmallFinanceBank.jpg",
-            "interest_rate": "7%",
-            "minimum_balance": "0",
-            "aoc": "0",
-            "link": "",
-            "type": "Fincare Small Finance Bank"
-        },
+        // {
+        //     "card_name": "Fincare Small Finance Bank",
+        //     "img": "FincareSmallFinanceBank.jpg",
+        //     "interest_rate": "7%",
+        //     "minimum_balance": "0",
+        //     "aoc": "0",
+        //     "link": "",
+        //     "type": "Fincare Small Finance Bank"
+        // },
         {
             "card_name": "HDFC Bank InstaSavings Account",
             "img": "HDFCBankInstaSavingsAccount.jpg",
             "interest_rate": "3-4 %*",
             "minimum_balance": "2500 - 25000",
             "aoc": "0",
-            "link": "",
+            "link": "https://v1.hdfcbank.com/htdocs/common/saving-account/index.html?LGCode=MKTG&mc_id=paid_Affiliate_1348_2860_2860_{sub_aff_id}_&utm_source=Affiliate_1348_2860_2860_{sub_aff_id}_&utm_medium=paid_Affiliate&utm_campaign=NTB_Affiliate_1348_Savings_Account_&utm_content=NTB_SA_IMP_1348_Banner_Ad1#SA_Landing",
             "type": "HDFC Bank"
         },
         {
@@ -92,7 +92,7 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "3%",
             "minimum_balance": "NR 15000",
             "aoc": "0",
-            "link": "",
+            "link": "https://leap.axisbank.com/verification?query=5ee36547c0ce0dd6c0a2812d&utm_source=CXAFFDSA&utm_medium=email&utm_campaign=DSA-Affiliate-VKYC&utm_term=2860_2860&utm_content=1348",
             "type": "Axis Bank"
         },
         {
@@ -101,27 +101,27 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "7%",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://inet.equitasbank.com/Selfe/?tpp=CREDITK12860_2860_{sub_aff_id}_{aff_sub3}",
             "type": "Equitas Small Finance Bank"
         }
     ]);
     const [copyCardsDetailData, setCopycardsDetailData] = React.useState([
-        {
-            "card_name": "IndusInd Bank Savings Account",
-            "img": "IndusIndBankSavingsAccount.png",
-            "interest_rate": "4 - 6%*",
-            "minimum_balance": "0",
-            "aoc": "0",
-            "link": "",
-            "type": "IndusInd bank"
-        },
+        // {
+        //     "card_name": "IndusInd Bank Savings Account",
+        //     "img": "IndusIndBankSavingsAccount.png",
+        //     "interest_rate": "4 - 6%*",
+        //     "minimum_balance": "0",
+        //     "aoc": "0",
+        //     "link": "",
+        //     "type": "IndusInd bank"
+        // },
         {
             "card_name": "Fi",
             "img": "Fi.jpg",
             "interest_rate": "5.1%*",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=com.epifi.paisa&referrer=af_tranid%3Du5-AhEa21_-o8ZpbTWfgHw%26pid%3Doptimidea_int%26af_siteid%3D174%26af_click_lookback%3D7d%26clickid%3D61cc3f0bf6c4230342d7a1bd%26af_installpostback%3Dfalse%26af_web_id%3D407b8710-9c6a-440e-9d54-4664c35b3c05-i",
             "type": "Fi"
         },
         {
@@ -130,25 +130,25 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "4%",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/ahome2.action?source=VKYCIL&banner=ILVKYClaunch&pubild=VKYClaunchmailer_3880_3880",
             "type": "Kotak Bank"
         },
-        {
-            "card_name": "Fincare Small Finance Bank",
-            "img": "FincareSmallFinanceBank.jpg",
-            "interest_rate": "7%",
-            "minimum_balance": "0",
-            "aoc": "0",
-            "link": "",
-            "type": "Fincare Small Finance Bank"
-        },
+        // {
+        //     "card_name": "Fincare Small Finance Bank",
+        //     "img": "FincareSmallFinanceBank.jpg",
+        //     "interest_rate": "7%",
+        //     "minimum_balance": "0",
+        //     "aoc": "0",
+        //     "link": "",
+        //     "type": "Fincare Small Finance Bank"
+        // },
         {
             "card_name": "HDFC Bank InstaSavings Account",
             "img": "HDFCBankInstaSavingsAccount.jpg",
             "interest_rate": "3-4%*",
             "minimum_balance": "2500 - 25000",
             "aoc": "0",
-            "link": "",
+            "link": "https://v1.hdfcbank.com/htdocs/common/saving-account/index.html?LGCode=MKTG&mc_id=paid_Affiliate_1348_2860_2860_{sub_aff_id}_&utm_source=Affiliate_1348_2860_2860_{sub_aff_id}_&utm_medium=paid_Affiliate&utm_campaign=NTB_Affiliate_1348_Savings_Account_&utm_content=NTB_SA_IMP_1348_Banner_Ad1#SA_Landing",
             "type": "HDFC Bank"
         },
         {
@@ -157,7 +157,7 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "3%",
             "minimum_balance": "NR 15000",
             "aoc": "0",
-            "link": "",
+            "link": "https://leap.axisbank.com/verification?query=5ee36547c0ce0dd6c0a2812d&utm_source=CXAFFDSA&utm_medium=email&utm_campaign=DSA-Affiliate-VKYC&utm_term=2860_2860&utm_content=1348",
             "type": "Axis Bank"
         },
         {
@@ -166,7 +166,7 @@ export default function SavingAccountCampaigns(props) {
             "interest_rate": "7%",
             "minimum_balance": "0",
             "aoc": "0",
-            "link": "",
+            "link": "https://inet.equitasbank.com/Selfe/?tpp=CREDITK12860_2860_{sub_aff_id}_{aff_sub3}",
             "type": "Equitas Small Finance Bank"
         }
     ]);
@@ -228,7 +228,7 @@ export default function SavingAccountCampaigns(props) {
                     </div>
                     <div className='px-10 mb-10'>
                         <div className='bg-white px-5 shadow-md rounded-md py-5 w-full border-2 border-gray-200'>
-                        <div className='flex flex-col sm:flex-row justify-between items-center space-y-5 sm:space-y-0'>
+                            <div className='flex flex-col sm:flex-row justify-between items-center space-y-5 sm:space-y-0'>
                                 <div className='flex flex-col sm:flex-row justify-start items-center space-x-5 space-y-5 sm:space-y-0'>
                                     <p className='text-sm font-bold'>Filter By -</p>
                                     <div className='w-40'>
@@ -307,7 +307,11 @@ export default function SavingAccountCampaigns(props) {
                                                     </span> : {el.aoc}
                                                 </h3>
                                                 <span class="inline-flex">
-                                                    <button class="mt-2 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm">Apply Now</button>
+                                                    <button class="mt-2 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm">
+                                                        <a href={el.link} target='_blank'>
+                                                            Apply Now
+                                                        </a>
+                                                    </button>
                                                 </span>
                                             </div>
                                         </div>

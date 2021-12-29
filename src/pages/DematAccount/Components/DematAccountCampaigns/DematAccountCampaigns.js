@@ -20,8 +20,11 @@ const MenuProps = {
 };
 
 const names = [
-    "Groww Demat Account",
-    "Upstox"
+    "Upstox",
+    "HDFC",
+    "AXIS",
+    "ICICI",
+    "GROWW",
 ];
 const cardnames = [
     'BSE|NSE',
@@ -31,24 +34,78 @@ export default function DematAccountcampaigns(props) {
     const [cardName, setCardName] = React.useState([]);
     const [cardsDetailData, setCardsDetailData] = React.useState([
         {
-            "card_name": "Upstox Demat Account",
-            "img": "UpstoxDematAccount.png",
+            "card_name": "HDFC SECURITY*",
+            "img": "hdfcsecurity.jpg",
             "exchange": "BSE|NSE",
             "trading_aof": "0",
             "demat_aof_accoun": "0",
-            "link": "",
-            "type": "Upstox"
+            "link": "https://allinone.hdfcsec.com/lp/open-trading-account1?utm_Source=Affiliate&utm_Medium=SS_17&utm_Campaign=Emailer&utm_Term=CPA_Dec.&utm_Content=cr17",
+            "type": "HDFC"
+        },
+        {
+            "card_name": "AXIS SECURITY*",
+            "img": "axissecurity.png",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://simplehai.axisdirect.in/SuperOptions-trading-account?utm_source=emailer&utm_medium=Convonix_1348_2860_2860_{sub_aff_id}_&utm_campaign=open-account-Superoptionsmailer1",
+            "type": "AXIS"
+        },
+        {
+            "card_name": "ICICI DIRECT*",
+            "img": "icicidirect.jpg",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://play.google.com/store/apps/details?id=com.icici.direct&referrer=utm_source=candid-{aff_id}_{sub_aff_id}_{aff_sub1}&utm_medium=banner&utm_term=oao&utm_content=na&utm_campaign=na",
+            "type": "ICICI"
+        },
+        {
+            "card_name": "GROWW",
+            "img": "groww.png",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://groww.in/?%243p=a_optimidea_network&%24aaid&~click_id=61cc3f615076820342e4deb7&~secondary_publisher=174&_branch_match_id=976395917135034117&_branch_referrer=H4sIAAAAAAAAAxXKuw7CIBQA0K%2BpYykFQU2Ik6NDO7gSHldLQSCAIf698cxnay3XC0KvknofVc5jcNGjZTmver0%2FdtDXYaYkCyVTbu7tLCgZofVU%2FGHgNxOc8dJZwbAx5MnwceLsNE%2BEzkAtaP5PFUyKVpWvzB8dXN2gCMzpDzMqz0d8AAAA",
+            "type": "GROWW",
         }
     ]);
     const [copyCardsDetailData, setCopycardsDetailData] = React.useState([
         {
-            "card_name": "Upstox Demat Account",
-            "img": "UpstoxDematAccount.png",
+            "card_name": "HDFC SECURITY*",
+            "img": "hdfcsecurity.jpg",
             "exchange": "BSE|NSE",
             "trading_aof": "0",
             "demat_aof_accoun": "0",
-            "link": "",
-            "type": "Upstox"
+            "link": "https://allinone.hdfcsec.com/lp/open-trading-account1?utm_Source=Affiliate&utm_Medium=SS_17&utm_Campaign=Emailer&utm_Term=CPA_Dec.&utm_Content=cr17",
+            "type": "HDFC"
+        },
+        {
+            "card_name": "AXIS SECURITY*",
+            "img": "axissecurity.png",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://simplehai.axisdirect.in/SuperOptions-trading-account?utm_source=emailer&utm_medium=Convonix_1348_2860_2860_{sub_aff_id}_&utm_campaign=open-account-Superoptionsmailer1",
+            "type": "AXIS"
+        },
+        {
+            "card_name": "ICICI DIRECT*",
+            "img": "icicidirect.jpg",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://play.google.com/store/apps/details?id=com.icici.direct&referrer=utm_source=candid-{aff_id}_{sub_aff_id}_{aff_sub1}&utm_medium=banner&utm_term=oao&utm_content=na&utm_campaign=na",
+            "type": "ICICI"
+        },
+        {
+            "card_name": "GROWW",
+            "img": "groww.png",
+            "exchange": "BSE|NSE",
+            "trading_aof": "0",
+            "demat_aof_accoun": "0",
+            "link": "https://groww.in/?%243p=a_optimidea_network&%24aaid&~click_id=61cc3f615076820342e4deb7&~secondary_publisher=174&_branch_match_id=976395917135034117&_branch_referrer=H4sIAAAAAAAAAxXKuw7CIBQA0K%2BpYykFQU2Ik6NDO7gSHldLQSCAIf698cxnay3XC0KvknofVc5jcNGjZTmver0%2FdtDXYaYkCyVTbu7tLCgZofVU%2FGHgNxOc8dJZwbAx5MnwceLsNE%2BEzkAtaP5PFUyKVpWvzB8dXN2gCMzpDzMqz0d8AAAA",
+            "type": "GROWW",
         }
     ]);
 
@@ -188,7 +245,9 @@ export default function DematAccountcampaigns(props) {
                                                     </span> : {el.demat_aof_accoun}
                                                 </h3>
                                                 <span class="inline-flex">
-                                                    <button class="mt-2 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm">Apply Now</button>
+                                                    <button class="mt-2 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm"><a href={el.link} target='_blank'>
+                                                            Apply Now
+                                                        </a></button>
                                                 </span>
                                             </div>
                                         </div>

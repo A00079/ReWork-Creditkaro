@@ -3,6 +3,7 @@ import Lottie from 'react-lottie';
 import animationData from '../../../../assets/animations/demat-acct.json';
 import firebase from '../../../../firebase.js';
 import { withRouter } from "react-router";
+import axios from 'axios';
 
  const DematAccountform = (props) => {
     const [input, setInput] = useState({});
@@ -47,32 +48,34 @@ import { withRouter } from "react-router";
     const onSignInSubmit = (e) => {
         e.preventDefault();
         console.log('Inputs', input);
-        if (!!input.firstname && !!input.lastname && !!input.contact && !!input.email && !!input.birthdate && !!input.averageannualincome) {
-            if (input.contact.toString().length == 10) {
-                setUpRecaptcha();
-                let phoneNumber = "+91" + '8169029085';
-                console.log(phoneNumber);
-                let appVerifier = window.recaptchaVerifier;
-                firebase
-                    .auth()
-                    .signInWithPhoneNumber(phoneNumber, appVerifier)
-                    .then(function (confirmationResult) {
-                        // SMS sent. Prompt user to type the code from the message, then sign the
-                        // user in with confirmationResult.confirm(code).
-                        window.confirmationResult = confirmationResult;
-                        // console.log(confirmationResult);
-                        console.log("OTP is sent");
-                        setIsFormSubmited(true);
-                    })
-                    .catch(function (error) {
-                        console.log(error);
-                    });
-            } else {
-                alert('Wrong number entered.');
-            }
-        } else {
-            alert('All Fields are required.');
-        }
+        props.history.push({ pathname: 'special-offers', type: 'demat-account' });
+
+        // if (!!input.firstname && !!input.lastname && !!input.contact && !!input.email && !!input.birthdate && !!input.averageannualincome) {
+        //     if (input.contact.toString().length == 10) {
+        //         setUpRecaptcha();
+        //         let phoneNumber = "+91" + '8169029085';
+        //         console.log(phoneNumber);
+        //         let appVerifier = window.recaptchaVerifier;
+        //         firebase
+        //             .auth()
+        //             .signInWithPhoneNumber(phoneNumber, appVerifier)
+        //             .then(function (confirmationResult) {
+        //                 // SMS sent. Prompt user to type the code from the message, then sign the
+        //                 // user in with confirmationResult.confirm(code).
+        //                 window.confirmationResult = confirmationResult;
+        //                 // console.log(confirmationResult);
+        //                 console.log("OTP is sent");
+        //                 setIsFormSubmited(true);
+        //             })
+        //             .catch(function (error) {
+        //                 console.log(error);
+        //             });
+        //     } else {
+        //         alert('Wrong number entered.');
+        //     }
+        // } else {
+        //     alert('All Fields are required.');
+        // }
     };
 
     const onSubmitOtp = (e) => {
@@ -85,14 +88,35 @@ import { withRouter } from "react-router";
             .then(function (result) {
                 // User signed in successfully.
                 // console.log("Result" + result.verificationID);
-                props.history.push('special-offers');
-
+                // props.history.push('special-offers');
+                saveData();
+                props.history.push({ pathname: 'special-offers', type: 'demat-account' });
             })
             .catch(function (error) {
                 console.log(error);
                 alert("Incorrect OTP");
             });
     };
+
+    const saveData = () => {
+        let data =
+        {
+            "firstName": input.firstname,
+            "contact": input.contact,
+            "lastName": input.lastname,
+            "email": input.email,
+            "birthDate": input.birthdate,
+            "averageAnnualIncome": input.averageannualincome,
+            "gender": input.gender
+        }
+        axios.post('https://credit.candidleads.com/api/v1/details/adddetail?type=demataccount', data)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
     return (
         <React.Fragment>
             <div id="recaptcha-container"></div>
