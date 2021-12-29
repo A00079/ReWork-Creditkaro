@@ -49,9 +49,9 @@ const Navbar = () => {
                   class="flex justify-between items-center py-2  md:py-4 md:justify-start md:space-x-10"
                 >
                   <div class="flex justify-start lg:w-0 lg:flex-1">
-                    <a href="#">
+                    <Link to='/'>
                       <span class="text-white pl-20 sm:px-16 font-bold">Credit Buddy</span>
-                    </a>
+                    </Link>
                   </div>
                   <div class="-mr-2 -my-2 pt-1 md:hidden">
                     <button
@@ -83,7 +83,7 @@ const Navbar = () => {
                       class="text-base md:text-sm mt-1 font-medium text-white hover:text-gray-300"
                     >
                       Contact
-            </a>
+                    </a>
                   </nav>
                 </div>
               </div>

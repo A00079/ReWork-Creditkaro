@@ -59,7 +59,7 @@ const WhyWe = () => {
                         </div>
                     </section>
 
-                    <section class="container px-4 pt-12 bg-white">
+                    <section class="container px-12 pt-12 bg-white">
                         <div class="relative flex items-end font-bold">
                             <h2 class="text-2xl">Our Products</h2>
                             <a href class="ml-10 flex items-center text-gray-400">
@@ -67,7 +67,7 @@ const WhyWe = () => {
                             </a>
                         </div>
                         <div class="mt-10">
-                            <ul class="-m-3.5 grid sm:grid-cols-4 grid-cols-2 gap-4">
+                            <ul class="grid sm:grid-cols-4 grid-cols-2 gap-4">
                                 {
                                     products.map((el, index) => {
                                         return (

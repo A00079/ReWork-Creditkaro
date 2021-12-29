@@ -7,10 +7,10 @@ export default function Creditcard(props) {
             <div className='relative'>
                 <DematAccountForm />
                 <DematAccountScore />
+                <DematAccountCampaigns />
                 <WhatIsDematAccount />
                 <Documents />
                 {/* <StepsDematAccount /> */}
-                <DematAccountCampaigns />
                 <StepsInDematAccount />
                 <BenefitsDematAccount />
                 <Link to='/'>

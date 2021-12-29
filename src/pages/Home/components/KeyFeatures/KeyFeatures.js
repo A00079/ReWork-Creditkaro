@@ -18,8 +18,8 @@ export default function Example() {
                     <div class="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
                         <h2 class="mb-5 text-xs font-semibold tracking-widest text-black uppercase title-font"> We are the best </h2>
                         <h1 class="mb-8 text-2xl font-black tracking-tighter text-indigo-600 md:text-5xl title-font"> Why Choose Us </h1>
-                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page. </p>
-                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page. </p>
+                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> Our goal is to become a one-stop solution provider for any issues that arise when you query about any present or upcoming financial product.   </p>
+                        <p class="mb-3 font-bold leading-relaxed text-left text-gray-500 "> We assist you in selecting the right credit card for your needs. Simply filter your preferences and leave the rest to us. We'll find you the perfect match!! </p>
                     </div>
                     <div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
                         {/* <img class="object-cover object-center rounded-lg " alt="hero" src="https://dummyimage.com/720x600/F3F4F7/8693ac" /> */}
@@ -32,7 +32,7 @@ export default function Example() {
                 </div>
             </section>
             <section class="text-gray-600 body-font">
-                <div class="container">
+                <div class="container px-20">
                     <div class="grid sm:grid-cols-4 grid-cols-1 gap-4 w-full">
                         <div class="p-4 w-full">
                             <div class="w-full h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">

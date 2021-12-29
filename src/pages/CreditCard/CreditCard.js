@@ -8,9 +8,9 @@ export default function Creditcard(props) {
                 <CreditForm />
                 <CreditScore />
                 <WhatIsCreditCard />
+                <CreditCampaigns />
                 <StepsCreditCard />
                 <TypesCreditCards />
-                <CreditCampaigns />
                 <CreditLimit />
                 <CreditProsCons />
                 <CreditRedeem />
