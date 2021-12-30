@@ -16,7 +16,7 @@ const WhyWe = () => {
         },
         {
             'title': 'Home Loan',
-            'img': 'mobilehomeloan.png'
+            'img': 'property-insurance.png'
         },
         {
             'title': 'Life Insurance',
@@ -42,22 +42,39 @@ const WhyWe = () => {
             <div class="min-h-screen bg-white">
                 <main>
                     <section class="juice3 bg-white bg-opacity-90 py-10">
-                        <div class="container mx-auto px-4 flex flex-col lg:flex-row">
+                        <div class="container h-96 mx-auto px-4 flex flex-col lg:flex-row">
                             <div class="juice relative lg:w-2/3 rounded-xl  bg-cover p-8 md:p-16">
-                                <p class="max-w-sm text-secondary text-3xl md:text-4xl font-semibold">Active Summer With Juice Milk 300ml</p>
-                                <p class="max-w-xs pr-10 text-secondary font-semibold mt-8">New arrivals with naturre fruits, juice milks, essential for summer</p>
-                                <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button>
-
+                                <p class="max-w-sm text-secondary text-3xl md:text-4xl font-semibold"></p>
+                                <p class="max-w-xs pr-10 text-secondary font-semibold mt-8"></p>
+                                {/* <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button> */}
                             </div>
                             <div class="juice2 mt-6 lg:mt-0 lg:ml-6 lg:w-1/3 rounded-xl bg-primary-lite bg-cover p-8 md:p-16">
                                 <div class="max-w-sm">
-                                    <p class="text-3xl md:text-4xl font-semibold uppercase">20% sale off</p>
-                                    <p class="mt-8 font-semibold">Syncthetic seeds<br />2.0 OZ</p>
-                                    <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button>
+                                    <p class="text-3xl md:text-4xl font-semibold uppercase"></p>
+                                    <p class="mt-8 font-semibold"></p>
+                                    {/* <button class="mt-20 bg-white font-semibold px-8 py-2 rounded">Shop Now</button> */}
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    {/* <section class="juice3 bg-white bg-opacity-90">
+                        <div class="container h-96 mx-auto px-4 flex flex-col lg:flex-row">
+                        <div class="juice6 mt-6 lg:mt-0 lg:mr-6 lg:w-1/3 rounded-xl bg-primary-lite bg-cover p-8 md:p-16">
+                                <div class="max-w-sm">
+                                    <p class="text-3xl md:text-4xl font-semibold uppercase"></p>
+                                    <p class="mt-8 font-semibold"></p>
+                                    
+                                </div>
+                            </div>
+                            <div class="juice7 relative lg:w-2/3 rounded-xl  bg-cover p-8 md:p-16">
+                                <p class="max-w-sm text-secondary text-3xl md:text-4xl font-semibold"></p>
+                                <p class="max-w-xs pr-10 text-secondary font-semibold mt-8"></p>
+                                
+                            </div>
+                            
+                        </div>
+                    </section> */}
 
                     <section class="container px-4 sm:px-12 pt-12 bg-white">
                         <div class="relative flex items-end font-bold">

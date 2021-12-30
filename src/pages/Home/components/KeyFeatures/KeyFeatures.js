@@ -36,30 +36,30 @@ export default function Example() {
                     <div class="grid sm:grid-cols-4 grid-cols-1 gap-4 w-full">
                         <div class="p-4 w-full">
                             <div class="w-full h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
-                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EASY</h2>
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EASY FOR ALL</h1>
-                                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EXCITING</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXCITING OFFERS </h1>
+                                <p class="leading-relaxed">We monitor the market, your preferences, and personalise the offers to deliver you the best deals available.</p>
                             </div>
                         </div>
                         <div class="p-4 w-full">
                             <div class="h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
-                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EXCLUSIVE</h2>
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXCLUSIVE OFFERS</h1>
-                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PROPER</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">PROPER RESEARCH </h1>
+                                <p class="leading-relaxed mb-3">Before we provide you something, we conduct extensive research. Our goal is to become a dependable source for you based on your preferences</p>
                             </div>
                         </div>
                         <div class="p-4 w-full">
                             <div class="h-full bg-gray-100  shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
-                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">SWIFT</h2>
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">SWIFT AND BRISK</h1>
-                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EASY</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EASY TO ACCESS</h1>
+                                <p class="leading-relaxed mb-3">We strive to make your experience on our website as simple and interactive as possible so that you will enjoy purchasing from us</p>
                             </div>
                         </div>
                         <div class="p-4 w-full">
                             <div class="h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
-                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">EXTENSIVE</h2>
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXTENSIVE RESEARCH</h1>
-                                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">FAST</h2>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">FAST AND RAPID</h1>
+                                <p class="leading-relaxed mb-3">We don't make you choose between options. We strive to provide you with the greatest information available in the industry in a timely manner. Our unique selling point is that we do tasks as promptly as feasible</p>
                             </div>
                         </div>
                     </div>

@@ -42,11 +42,19 @@
 
 
 .juice {
-  background-image: url('https://i.ibb.co/SN2Sp4T/juice.png');
+  background-image: url('./assets/img/home-banner.jpg');
 }
 
 .juice2 {
-background-image: url('https://i.ibb.co/yyMXMSF/juice2.png');
+background-image: url('./assets/img/home-banner2.jpg');
+}
+
+.juice6 {
+  background-image: url('./assets/img/home-banner3.jpg');
+}
+
+.juice7 {
+background-image: url('./assets/img/home-banner4.jpg');
 }
 
 .juice3 {
