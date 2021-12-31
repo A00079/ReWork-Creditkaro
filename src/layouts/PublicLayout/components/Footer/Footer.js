@@ -2,6 +2,7 @@ import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import { Divider } from "@material-ui/core";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -177,24 +178,81 @@ const Footer = () => {
                 </svg>
                 <span class="ml-3 text-xl text-white">Credit Buddy</span>
               </a>
-              <p class="mt-2 text-sm  text-left text-gray-500">
-                Air plant banjo lyft occupy retro adaptogen indego
-          </p>
+              {/* <p class="mt-2 text-sm  text-left text-gray-500">
+                Finance Investment
+          </p> */}
             </div>
             <div
               class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
             >
-              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
-                <h2
+              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+                {/* <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
                 >
                   CATEGORIES
-            </h2>
+            </h2> */}
                 <nav class="list-none mb-10 cursor-pointer">
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">First Link</a>
+                  <Link to='/credit-card'>
+
+                    <li className="mb-2">
+                      <a class="text-gray-500 hover:text-gray-300 ">Credit Card</a>
+                    </li>
+                  </Link>
+                  <Link to='/personal-loan'>
+
+                    <li>
+                      <a class="text-gray-500 hover:text-gray-300">Personal Loan</a>
+                    </li>
+                  </Link>
+                  {/* <li>
+                    <a class="text-gray-600 hover:text-gray-300">Third Link</a>
                   </li>
                   <li>
+                    <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
+                  </li> */}
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+                {/* <h2
+                  class="title-font font-medium text-white tracking-widest text-sm mb-3"
+                >
+                  CATEGORIES
+            </h2> */}
+                <nav class="list-none mb-10 cursor-pointer">
+                  <Link to='/home-loan'>
+
+                    <li>
+                      <a class="text-gray-500 hover:text-gray-300">Home Loan</a>
+                    </li>
+                  </Link>
+                  <Link to='/demat-account'>
+
+                    <li>
+                      <a class="text-gray-500 hover:text-gray-300">Demat Account</a>
+                    </li>
+                  </Link>
+                  {/* <li>
+                    <a class="text-gray-600 hover:text-gray-300">Third Link</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
+                  </li> */}
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+                {/* <h2
+                  class="title-font font-medium text-white tracking-widest text-sm mb-3"
+                >
+                  CATEGORIES
+            </h2> */}
+                <nav class="list-none mb-10 cursor-pointer">
+                  <Link to='/saving-account'>
+
+                    <li>
+                      <a class="text-gray-500 hover:text-gray-300">Saving Account</a>
+                    </li>
+                  </Link>
+                  {/* <li>
                     <a class="text-gray-600 hover:text-gray-300">Second Link</a>
                   </li>
                   <li>
@@ -202,51 +260,9 @@ const Footer = () => {
                   </li>
                   <li>
                     <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
-                  </li>
+                  </li> */}
                 </nav>
-              </div> */}
-              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
-                <h2
-                  class="title-font font-medium text-white tracking-widest text-sm mb-3"
-                >
-                  CATEGORIES
-            </h2>
-                <nav class="list-none mb-10 cursor-pointer">
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
-                  </li>
-                </nav>
-              </div> */}
-              {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
-                <h2
-                  class="title-font font-medium text-white tracking-widest text-sm mb-3"
-                >
-                  CATEGORIES
-            </h2>
-                <nav class="list-none mb-10 cursor-pointer">
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-gray-600 hover:text-gray-300">Fourth Link</a>
-                  </li>
-                </nav>
-              </div> */}
+              </div>
               {/* <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
                 <h2
                   class="title-font font-medium text-white tracking-widest text-sm mb-3"
@@ -486,15 +502,15 @@ const Footer = () => {
         </div>
         <div class="bg-gray-900 border-t-2 border-gray-700">
           <div
-            class="container mx-auto py-2 px-10 md:px-24 lg:px-24 xl:px-24 flex flex-wrap flex-col sm:flex-row"
+            class="container mx-auto py-2 px-10 md:px-24 lg:px-24 xl:px-10 flex flex-wrap flex-col sm:flex-row"
           >
             <small
-              class="text-gray-400 text-left md:text-center lg:text-center xl:text-center sm:text-left"
+              class="text-gray-400 text-left md:text-left lg:text-left xl:text-left sm:text-left"
             >
-              CIN No. X757595759FJFJ5885KJ © Copyright 2021 XYZ.com.<br />
-          All Rights Reserved. *No. 1 in terms of loan disbursal as per industry
-          estimates
-        </small>
+              Office No.348/349 | 2nd floor | Orchard Corporate Park | ORM Wing B | Royal Palms Estate | Near Film City | Goregaon East | Mumbai | Maharashtra - 400065<br />
+              All Rights Reserved. *No. 1 in terms of loan disbursal as per industry
+              estimates.
+            </small>
             <span
               class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-start md:justify-center lg:justify-center xl:justify-center sm:justify-start"
             >
@@ -503,7 +519,7 @@ const Footer = () => {
               </a>
               <small class="ml-3 text-gray-200 items-center mt-3">
                 Made in India
-          </small>
+              </small>
             </span>
           </div>
         </div>

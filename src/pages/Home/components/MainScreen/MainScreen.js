@@ -15,10 +15,10 @@ export default function MainScreen() {
                         />
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-1 font-bold fnt-sty-nunito text-gray-900">We Offer You
-                            <br class="hidden lg:inline-block" /><span className='text-indigo-600'>The best Finance Analysis</span>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-24 font-bold fnt-sty-nunito text-gray-900">We Offer You
+                            <br class="lg:inline-block" /><span className='text-indigo-600'>The best Finance Analysis</span>
                         </h1>
-                        <p class="mb-8 fnt-sty-nunito text-sm text-gray-600">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                        {/* <p class="mb-8 fnt-sty-nunito text-sm text-gray-600">Your Personal Finance investment.</p> */}
                         <div class="grid grid-cols-12 sm:grid-cols-10 gap-2 w-full">
                             <div className="cursor-pointer col-span-6 sm:col-span-2 flex flex-col py-3 rounded-md w-full h-full">
                                 <Link to='/credit-card'>
