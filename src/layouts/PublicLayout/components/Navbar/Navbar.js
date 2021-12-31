@@ -84,12 +84,13 @@ const Navbar = () => {
                   </div> */}
                   <nav class="hidden md:flex space-x-10">
                     <NavItems />
-                    <a
-                      href="#"
-                      class="text-base md:text-sm mt-1 font-medium text-white hover:text-gray-300"
-                    >
-                      Contact
-                    </a>
+                    <Link to='contact-us'>
+                      <div
+                        class="text-base md:text-sm mt-1 font-medium text-white hover:text-gray-300"
+                      >
+                        Contact
+                      </div>
+                    </Link>
                   </nav>
                 </div>
               </div>

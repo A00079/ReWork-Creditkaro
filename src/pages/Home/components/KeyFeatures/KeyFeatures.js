@@ -32,7 +32,7 @@ export default function Example() {
                 </div>
             </section>
             <section class="text-gray-600 body-font">
-                <div class="container sm:px-20">
+                <div class="sm:px-10">
                     <div class="grid sm:grid-cols-4 grid-cols-1 gap-4 w-full">
                         <div class="p-4 w-full">
                             <div class="w-full h-full bg-gray-100 shadow-xl bg-opacity-75 px-8 pt-6 pb-6 rounded-lg overflow-hidden text-center relative">
