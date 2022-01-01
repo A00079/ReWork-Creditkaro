@@ -162,21 +162,12 @@ const Footer = () => {
               <a
                 class="flex title-font font-medium items-center md:justify-start justify-start text-gray-900"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-                  ></path>
-                </svg>
-                <span class="ml-3 text-xl text-white">Credit Buddy</span>
+                <img
+                  class="sm:w-48 w-48"
+                  src="/img/credit-logo.png"
+                  alt=""
+                />
+                {/* <span class="ml-3 text-xl text-white">Credit Buddy</span> */}
               </a>
               {/* <p class="mt-2 text-sm  text-left text-gray-500">
                 Finance Investment

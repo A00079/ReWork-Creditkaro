@@ -40,8 +40,8 @@ const Navbar = () => {
               <Link to='/'>
                 <button>
                   <img
-                    class="h-8 w-auto sm:h-10 pl-7 mt-5 md:ml-5 mt-0 lg:pl-0 mt-0 xl:pl-0 mt-0"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    class="sm:w-16 w-20  pl-7 mt-10 sm:mt-6 sm:ml-7 mt-0 lg:pl-0 mt-0 xl:pl-0 mt-0"
+                    src="/img/creditbuddy-logo.png"
                     alt=""
                   />
                 </button>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 >
                   <div class="flex justify-start lg:w-0 lg:flex-1">
                     <Link to='/'>
-                      <span class="text-white pl-20 sm:px-16 font-bold">Credit Buddy</span>
+                      <span class="text-white text-xl pl-20 sm:px-16 font-bold">Credit Buddy</span>
                     </Link>
                   </div>
                   {/* <div class="-mr-2 -my-2 pt-1 md:hidden">
